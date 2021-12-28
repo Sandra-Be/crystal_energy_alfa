@@ -2,6 +2,8 @@ html {
     height: 100%;
 }
 
+/* Home Page */
+
 body {
     background: url('/media/background.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -34,10 +36,18 @@ body {
     width: fit-content;
 }
 
+.dropdown-menu {
+    background:#FEEAFA;
+}
+
 .shop-now-button {
     background: #003D3B;
     color: #FEEAFA;
     min-width: 260px;
+}
+
+.shop-now h4 {
+    text-align: center;
 }
 
 .btn-black {
