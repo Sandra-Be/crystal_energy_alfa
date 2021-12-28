@@ -14,11 +14,6 @@ body {
     background: #003D3B;
 }
 
-h2 {
-    font-family: 'Megrim', cursive;
-    font-size: 2rem;
-}
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -31,6 +26,8 @@ h2 {
 .logo-font {
     text-transform: uppercase;
     color: #000;
+    font-family: 'Abel', sans-serif !important;
+    font-weight: bolder;
 }
 
 .main-logo-link {
@@ -64,6 +61,14 @@ h2 {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-banner {
+    background: #5F2F74;
+}
+
+.banner-font {
+    color:#FEEAFA;
 }
 
 /* -------------------------------- Media Queries */
