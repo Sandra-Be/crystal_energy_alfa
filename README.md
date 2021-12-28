@@ -1,108 +1,299 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Crystal Energy
 
-Welcome Sandra-Be,
+![Crystal Energy](project_files/website/.jpg "Crystal Energy")
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+* [Click here](https://.herokuapp.com/) and view the live project.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Table of contents
 
-## Gitpod Reminders
+1. [Introduction](#Introduction)
+2. [UX](#UX)
+   * [Strategy](#Strategy)
+      * [Website strategy](#Website-strategy)
+      * [Target audience](#Target-audience)
+      * [External Visitor's goal's](#External-Visitor's-goal's)
+      * [Ideal client](#Ideal-client)
+      * [Site Owner's goal's](#Site-Owner's-goal's)
+   * [Scope](#Scope)
+      * [User stories](#User-stories)
+      * [Features](#Features)
+   * [Structure](#Structure)
+      * [Site structure](#Site-structure)
+   * [Skeleton](#Skeleton)
+      * [Quick sketch](#Quick-sketch)
+      * [Wireframes](#Wireframes)
+   * [Design](#Design)
+      * [Colour scheme](#Colour-scheme)
+      * [Fonts](#Fonts)
+      * [Media](#Media)
+      * [Languages](#Languages)
+      * [Technologies Used](#Technologies-Used) 
+3. [Completed Live Site](#Completed-Live-Site)
+   * [Existing features](#Existing-features) 
+   * [Features to Implement in future](#Features-to-Implement-in-future)  
+4. [Testing](#Testing)
+   * [W3C Validation](#W3C-Validation)
+   * [Jshint Validation](#Jshint-Validation)
+   * [PEP8 Validation](#PEP8-Validation)
+   * [User stories testing](#User-stories-testing)
+   * [Functional testing](#Function-testing)
+5. [Database Design](#Database-Design)
+   * [Database schema](#Database-schema)
+6. [Deployment](#Deployment)
+   * [MongoDB Configuration](#MongoDB-Configuration)
+   * [Heroku Deployment](#Heroku-Deployment)
+   * [Forking the Repository](#Forking-the-Repository)
+   * [Creating a Clone](#Creating-a-Clone)
+7. [Credits](#Credits)
+   * [Images and text](#Images-and-text)
+   * [Helpfull sites](#Helpfull-sites)
+   * [Acknowledgements](#Acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Introduction
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+# UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Strategy
+### Website strategy
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Strategy](project_files/website/strategy_3.jpg "Strategy")
 
-To log into the Heroku toolbelt CLI:
+### Target audience
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* People seeking a spiritual path
+* People seeking inspiration
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### External Visitor's goal's
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Ideal client
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* A person who is free thinking
+* A person who is spiritualy aware
+* A person who wants to broaden there horizons
+* A person who is seeking a like minded community
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Site Owner's goal's
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Scope
+### User stories
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Structure
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Site structure
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Structure](project_files/website/structure_magic.jpg "Structure")
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Skeleton
+### Quick sketch
 
-------
+![Quick sketch](project_files/website/sketch.jpg "Quick sketch")
 
-## FAQ about the uptime script
+### Wireframes
 
-**Why have you added this script?**
+View of the main home page for website:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Wireframes](project_files/wireframes/wireframes_magic.png "Wireframes") 
 
-**How will this affect me?**
+Views of the rest pages on website:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Design
+### Colour scheme
 
-**So….?**
+Colours of ... [mycolor.space](http://mycolor.space) is used throughout site.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![Colour palette](project_files/website/colours.jpg "Colour palette")
 
-**Can I opt out?**
+### Fonts
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+### Media
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+### Languages
+
+This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML), [CSS3](https://en.wikipedia.org/wiki/CSS) Cascading Style Sheets (CSS), [jQ](https://en.wikipedia.org/wiki/JQuery) jQuery (jQuery) and [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) Python.
+
+### Technologies Used
+
+* [BSON](https://bsonspec.org/) - bson.objectid is a required dependency for MongoDB management system.
+* [MongoDB](https://www.mongodb.com/) - used for database functionality.
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - used to host the database.
+* [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
+* [Google Fonts](https://fonts.google.com/) - were used throughout the site.
+* Icons on website were added with [Font Awesome](https://fontawesome.com/).
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - framework used to create and populate the templates.
+* [Jinja](https://jinja.palletsprojects.com/en/3.0.x/) - Jinja templating language was used to simplify and display backend data in html.
+* [JQuery](https://jquery.com/) - used to activate the Materialize functionality.
+* [PyMongo](https://pypi.org/project/pymongo/) - flask_pymongo used for interacting with MongoDB database from Python.
+* [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/) - used for password hashing and authentication.
+* [Git](https://git-scm.com/) - used for version control to commit to Git and push to Heroku.
+* Project code stored on [GitHub](https://github.com/).
+* [gitpod.io](https://gitpod.io/workspaces) was used for coding.
+* [Heroku](https://www.heroku.com/home) - cloud platform used to deploy application.
+* [PEP8](https://www.python.org/dev/peps/pep-0008/) - used to check code for PEP8 requirements.
+* [PEP8online](http://pep8online.com/) - used to check code for PEP8 requirements.
+* [RandomKeygen](https://randomkeygen.com/) - used to generate secure password to Secret Key.
+* Wireframes were created on [Balsamiq](https://balsamiq.com/).
+* [Am I Responsive!](http://ami.responsivedesign.is/) website to review projects responsiveness.
+* [jshint.com](http://jshint.com) used for jQuery code validation.
+* [W3C Markup Validation Service](https://validator.w3.org/) used for HTML code validation.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) used for CSS code validation.
+
+# Completed Live Site
+
+![Website Layout](project_files/website/website_layout.jpg "Website Layout")
+
+* [Click here](https://magic-spells-project.herokuapp.com/) and view the live site.
+
+## Existing features 
+
+
+
+## Features to Implement in future
+
+
+
+# Testing
+
+
+
+## W3C Validation
+
+To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator.
+To make make it easier to validate html code, since using jinja templating language throughout all pages, which results in errors in online validators. I used URL address.
+For W3C Css Validator I copied css code directly.
+
+* [W3C Validator](project_files/validators/w3c.jpg "W3C Validator")
+* [W3C CSS Validator](project_files/validators/W3c_css.pdf "W3C CSS Validator")
+
+## Jshint Validation
+
+For this project I used jQuery - JavaScript Library for MaterializeCSS initialization: "Write less, do more."
+Jshint were used to validate jQuery file of this project. [Click](project_files/validators/jshint.jpg) to view report.
+
+## PEP8 Validation
+
+Python code checked for PEP8 requirements. [Click](project_files/validators/pep8.jpg) to view report.
+
+## User stories testing
+   
+   
+## Functional testing
+
+Throughout the website every link, field and icon was tested and all results are displayed on the table below:
+
+| Location | Type | Expected Result | Actual Result | Pass/Fail/Not executed|
+| :----: | :----: | :----: | :----: | :----: |
+
+
+# Database Design
+
+MongoDB Atlas is used as database backend for storing user and spells details. There are three collections.
+
+## Database schema
+
+![Database Schema](project_files/website/shema.jpg "Database Schema")
+
+# Deployment
+
+## MongoDB Configuration
+
+1. Login to your [MongoDB](https://www.mongodb.com/) Account.
+2. From Clusters tab, click on Connect.
+3. Select Connect to your application.
+4. Select Python as Driver and choose Version 3.6 or later
+5. Create a new env python file in your project, paste and save the connection link and variables.
+
+![Link](project_files/website/link_snippet.jpg "Link")
+
+6. Create an instance of PyMongo.
+
+![Link](project_files/website/link_snippet1.jpg "Link")
+
+## Heroku Deployment
+
+1. Before deploying your project create a requirements.txt file by running the following command in the CLI:
+
+![Command](project_files/website/command1.jpg "Command")
+
+2. Create a Procfile file by running the following command in the CLI:
+
+![Command](project_files/website/command2.jpg "Command")
+
+3. git add and git commit the new requirements and Procfile and then git push the project to GitHub.
+4. Log in to [Heroku](https://id.heroku.com/login).
+5. Select "New" on your dashboard and then select "Create new app".
+6. Choose a name for your application, select your region, and then click "Create app".
+7. From the app dashboard, navigate to "Deploy" tab.
+8. From Deployment method select "Github" and confirm the linking of the Heroku app by clicking "Search" then select your repository name.
+9. Once you select your repository, click on "Connect".
+10. After you connected to your repository, click on "Settings" tab on your app dashboard, and click on "Reveal Config Vars" and add your configuration variables to Heroku.
+11. Navigate to "Deploy" tab, and from Manual deploy choose your master branch, and click "Deploy Branch".
+12. After you deployed your branch "Enable Automatic Deploys".
+13. Site is successfully deployed, any further changes will automatically be updated everytime they are commited and pushed on Github.
+
+## Forking the GitHub Repository
+
+1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/).
+3. At the top of the repository, on the right side of the page, select "Fork".
+4. You should now have a copy of the original repository in your GitHub account.
+
+## Creating a Clone
+
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension) Extension for Chrome.
+2. After installation, restart the browser.
+3. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
+4. Locate the [GitHub Repository](https://github.com/Sandra-Be/).
+5. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+
+### How to run this project within a local IDE, such as VSCode
+
+1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/).
+3. Under the repository name, click "Clone or download".
+4. In the Clone with HTTPs section, copy the clone URL for the repository.
+5. In your local IDE open the terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type 'git clone', and then paste the URL you copied in Step 3.
+
+   > git clone https://github.com/USERNAME/REPOSITORY
+
+8. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+# Credits
+
+## Images and text
+
+
+
+## Helpfull sites
+
+* [stackoverflow.com](https://stackoverflow.com/) - website for code tips.
+* [learn.codeinstutute.net](https://learn.codeinstitute.net/login?next=/) - HTML, CSS, JavaScript and Python study materials.
+* [www.markdownguide.org](https://www.markdownguide.org/basic-syntax) - useful website for Markdown language creating README.md file.
+
+## Acknowledgements 
+
+* My mentor Dick Vlaanderen for helpful feedback.
+* Student support at Code Institute Slack platform for their support.
