@@ -1,0 +1,50 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "angel",
+            "friendly_name": "Angel Healing Crystals"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "chakra",
+            "friendly_name": "Chakra Healing Crystals"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "best",
+            "friendly_name": "Best Healing Crystals"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "home",
+            "friendly_name": "Home"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "women",
+            "friendly_name": "Women"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "men",
+            "friendly_name": "Men"
+        }
+    }
+]

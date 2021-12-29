@@ -1,0 +1,506 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "name":"Bornite",
+          "description":"One of the most powerful stones when used in conjunction with chakra healing as stones energy is such that when placed on one chakra it effects all of the others. In physical healing it is used to stimulate adrenaline and encourage the production of calcium within the body.",
+          "price":4.20,
+          "category":2,
+          "rating":4.6,
+          "image_url":"https://cdn-s3.touchofmodern.com/products/001/724/962/e651221cec323eed80d95e46006b17a8_large.jpg?1576283118",
+          "image":"im10.jpg"
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001600425",
+          "name":"Amethyst",
+          "description":"The Amethyst crystal stone meaning purifies your energy field of unwanted energy so you can connect to your inner peace and leave the rest behind. Specifically, the Amethyst crystal healing properties are connected to your headspace, and work to sooth your mind of any worries, stress, or tension.",
+          "price":4.20,
+          "category":1,
+          "rating":4.6,
+          "image_url":"https://assets1.fossilera.com/sp/498737/spain/fluorite-barite-quartz.jpg",
+          "image":"im11.jpg"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001730010",
+          "name":"Rose Quartz",
+          "description":"Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
+          "price":4.20,
+          "category":3,
+          "rating":4.7,
+          "image_url":"https://kaemelts.kaescentedmelts.com/wp-content/uploads/2018/02/scent-photo-rose-quartz.jpg",
+          "image":"im12.jpg"
+       }
+    },
+    {
+       "pk":4,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001890157",
+          "name":"Lepidolite Thumbstone",
+          "description":"Associated with the Crown and Third Eye Chakras, Lepidolite is recognized for its ability to release negative processes, energies, and stimulating personal and emotional growth. Lepidolite is beneficial for depression, anxiety and overall mental health, as its calming energy assists in overcoming obstacles and promoting self-confidence and awareness.",
+          "price":7.45,
+          "category":3,
+          "rating":3.0,
+          "image_url":"https://www.crystalage.com/img/products/lepidolite-thumb-stone.jpg",
+          "image":"im13.jpg"
+       }
+    },
+    {
+       "pk":5,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002111605",
+          "name":"Quartz",
+          "description":"Quartz is an important healing stone said to have a cleansing and healing effect. Quartz brings Clarity of thought and decisiveness.",
+          "price":5.25,
+          "category":3,
+          "rating":5.0,
+          "image_url":"https://www.crystalclassics.co.uk/Uploads/ShopItems/00/02/93/00/ShopItemImg1_PICT/CC16859-Smoky-Quartz-England-2019-02-19-14-50-56-C-ed.jpg",
+          "image":"im14.jpg"
+       }
+    },
+    {
+       "pk":6,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002260206",
+          "name":"Tourmaline",
+          "description":"Associated with the Root Chakra, Tourmaline is a powerful protection and grounding stone. Tourmaline is beneficial for spiritual and emotional healing, positive manifestation, shielding from negative thoughts, and balancing male and female energies. Tourmaline aids with creativity, resilience, compassion and releasing tension during times of stress or anxiety.",
+          "price":4.50,
+          "category":2,
+          "rating":4.7,
+          "image_url":"https://www.crystalclassics.co.uk/Uploads/ShopItems/00/02/84/02/ShopItemImg2_PICT/CC17355-Vanadian-Uvite-Tourmaline-Tazania-180928065619ed.jpg",
+          "image":"im15.jpg"
+       }
+    },
+    {
+       "pk":7,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002440521",
+          "name":"Bismuth",
+          "description":"Associated with the Crown Chakra and for its ability to activate the Root Chakra, Bismuth is a colourful stone of positive energy and wisdom. Bismuth brings order out of chaos, helping to organize and coordinate our activities. Simultaneously energizes and revitalizes, providing the strength to carry out difficult tasks.",
+          "price":5.20,
+          "category":3,
+          "rating":4.4,
+          "image_url":"https://nationalgemlab.in/wp-content/uploads/2017/03/bismuth-crystal-specimen-extra-large_1-768x768.jpg",
+          "image":"im19.jpg"
+       }
+    },
+    {
+       "pk":8,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002601115",
+          "name":"Tigers Eye",
+          "description":"Associated with the Root Chakra, Red Tigers Eye is recognized as the stone of endurance and nurturing. Red Tigers Eye is beneficial for guarding against negative intentions, promoting sexual health and desire, emotional healing and circulatory conditions, and for focus and strength during stressful events.",
+          "price":4.20,
+          "category":2,
+          "rating":4.5,
+          "image_url":"https://s3-eu-west-1.amazonaws.com/cdn.webfactore.co.uk/sr_427934_large.jpg",
+          "image":"im21.jpg"
+       }
+    },
+    {
+       "pk":9,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002690715",
+          "name":"Cats Eye",
+          "description":"Associated with the Sacral Chakra. Cats Eye is recognized for its ability to bring luck, positivity and protection against negative energy. Cats Eye is beneficial for Reconnecting with the higher-self, spiritual rebalance, divine communication and manifesting kindness.",
+          "price":3.90,
+          "category":3,
+          "rating":4.7,
+          "image_url":"https://ceylon-gemstones.com/37646-tm_thickbox_default/202-ctsnatural-chrysoberyl-cats-eyeloose-gemstoneceylon-new.jpg",
+          "image":"im25.jpg"
+       }
+    },
+    {
+       "pk":10,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002701115",
+          "name":"Apache Tears",
+          "description":"Like other types of Black Obsidian, they will absorb negative energy. This makes Apache Tears powerful tools to cleanse your auric field of negativity. Their historical meaning is interesting, as these stones are powerful to heal you, if you are feeling grief and emotional distress.",
+          "price":4.20,
+          "category":3,
+          "rating":4.4,
+          "image_url":"https://www.mineralevivo.com/1269-home_default/apache-tears-obsidian-jumbo-crystal-healing-raw-minerals.jpg",
+          "image":"im27.jpg"
+       }
+    },
+    {
+       "pk":11,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002761055",
+          "name":"Labradorite",
+          "description":"Labradorite is one of the most powerful and stunning semi-precious stones around the world. Its full display colours expose it to become more attractive than the others. It has full power to heal, protect, and produce energy that gives us the reason to love it even more.",
+          "price":4.20,
+          "category":3,
+          "rating":3.0,
+          "image_url":"https://cdn-s3.touchofmodern.com/products/001/495/281/43fa54ee9b2cb299097b2a702fbfbb34_large.jpg?1557857624",
+          "image":"im28.jpg"
+       }
+    },
+    {
+       "pk":12,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820069",
+          "name":"Goldstone",
+          "description":"The message of the Goldstone crystal stone meaning is that sometimes you have to lose your mind to find yourself. A protective warrior stone, the Goldstone crystal helps you get out of your head and back down to earth.",
+          "price":5.50,
+          "category":1,
+          "rating":4.6,
+          "image_url":"https://cdn3.volusion.com/qz29d.hncd6/v/vspfiles/photos/LAB-145-2.jpg?v-cache=1491287263",
+          "image":"im29.jpg"
+       }
+    },
+    {
+       "pk":13,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820147",
+          "name":"Unakite",
+          "description":"The magic of Unakite properties is their ability to inspire a sense of urgency as you realize how quickly time slips through your fingers. Meditate with the frequencies of the Unakite crystal meaning and tell it all your dreams, no matter how daring or wild. When you work with the Unakite uses and properties, you can tell it things you can not tell anyone else because it is listening and ready to take on your problems.",
+          "price":3.90,
+          "category":1,
+          "rating":3.2,
+          "image_url":"https://www.thecrystalman.com/wp-content/uploads/2016/11/Unakite-Therapy-Stone-30d.jpg",
+          "image":"im30.jpg"
+       }
+    },
+    {
+       "pk":14,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002910572",
+          "name":"Red Jasper",
+          "description":"Red Jasper is marvellous for clearing the mind during meditation, prayer or contemplation. Its high spiritual energy increases focus and endurance during long ceremonies or practices, and is helpful in establishing new spiritual disciplines. It is an excellent stone for shamanic journeying and astral travel, and provides vivid dream recall.",
+          "price":4.00,
+          "category":2,
+          "rating":4.7,
+          "image_url":"https://www.fossilera.com/pi/3202/1-8-polished-red-jasper-pocket-stone.jpg",
+          "image":"im31.jpg"
+       }
+    },
+    {
+       "pk":15,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002990740",
+          "name":"Carnelian",
+          "description":"This beautiful stone is believed to reduce apathy and lift your spirit by bringing you more joy, pleasure, and helping you to cheer up all the people around you. Carnelian will also help you to overcome some of your biggest fears by helping you to become more courageous and decisive. Orange carnelian is a really good stimulant for the air circulation in your body, which can help you to improve the flow of energy and encourage better oxygenation of all body cells.",
+          "price":3.20,
+          "category":2,
+          "rating":4.8,
+          "image_url":"https://www.madagascandirect.com/uploads/products/carnelian8695c.jpg",
+          "image":"im33.jpg"
+       }
+    },
+    {
+       "pk":16,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003050248",
+          "name":"Emerald",
+          "description":"Emerald will increase the energy levels in your body and enhance the energy flow between the lower and upper chakras. It will also help you manifest a peaceful and loving existence.",
+          "price":5.50,
+          "category":2,
+          "rating":4.4,
+          "image_url":"https://i.pinimg.com/originals/ae/2d/cf/ae2dcff2ac50a25f3e4fea968cb6008f.jpg",
+          "image":"im34.jpg"
+       }
+    },
+    {
+       "pk":17,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003070787",
+          "name":"Ziosite",
+          "description":"Ziosite aligns the heart and third eye to produce a deepened understanding of what negativity we are carrying and how to conquer it. Green Ziosite energy produces growth and fertility in all aspects of life.",
+          "price":4.50,
+          "category":2,
+          "rating":4.4,
+          "image_url":"https://www.crystalage.com/img/products/zoisite-healing-crystal-42mm.jpg",
+          "image":"im37.jpg"
+       }
+    },
+    {
+       "pk":18,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003090182",
+          "name":"Turquoise",
+          "description":"Turquoise is a most efficient healer, providing solace for the spirit and well-being for the body.",
+          "price":3.90,
+          "category":2,
+          "rating":4.8,
+          "image_url":"https://static.prehistoricoregon.com/wp-content/uploads/turquoise120150515-2114-1nw4e2x_960x960-555x555.jpg",
+          "image":"im42.jpg"
+       }
+    },
+    {
+       "pk":19,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003090186",
+          "name":"Amber",
+          "description":"The meaning of an Amber crystal is clearing. It has been known that an Amber has a healing power. If you tend to feel stress or want to balance your mind and feelings, Amber is for you.",
+          "price":5.00,
+          "category":2,
+          "rating":5.0,
+          "image_url":"https://cdn.shopify.com/s/files/1/0974/4506/products/s-l1600_69cdd0a0-37b7-4df6-abfd-90f2a7d96b38_2000x.jpg?v=1515536434",
+          "image":"im45.jpg"
+       }
+    },
+    {
+       "pk":20,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003161326",
+          "name":"Aquamarine",
+          "description":"The meaning of Aquamarine is communication. The crystal gives its owner courage and confidence and helps smooth communication. Aquamarine is known as a crystal, which is blessed by God and it helps its owner to attract support from many sources.",
+          "price":4.20,
+          "category":3,
+          "rating":4.7,
+          "image_url":"https://cdn.irocks.com/storage/media/61245/conversions/AQUAMARINE-GUADALCAZAR-MEXICO-58MM-JB152-6-large.jpg",
+          "image":"im46.jpg"
+       }
+    },
+    {
+       "pk":21,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003230723",
+          "name":"Kyanite",
+          "description":"Kyanite is an incredibly powerful stone for heightening your intuition and opening your subtle psychic senses through which you will be able to perceive and experience the angelic realm.",
+          "price":5.50,
+          "category":1,
+          "rating":4.3,
+          "image_url":"https://assets1.fossilera.com/sp/329941/kyanite/kyanite-quartz.jpg",
+          "image":"im54.jpg"
+       }
+    },
+    {
+       "pk":22,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003270936",
+          "name":"Apophyllite",
+          "description":"Apophyllite is a naturally powerful energy enhancer. It's joyful and light presence helps to open the interdimensional doorways to the highest realms, and when connecting with angels, Apophyllite will enhance and compliment the healing energies.",
+          "price":5.50,
+          "category":1,
+          "rating":5.0,
+          "image_url":"https://www.crystalage.com/img/products/apophyllite-crystal-specimen-small.jpg",
+          "image":"im55.jpg"
+       }
+    },
+    {
+       "pk":23,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003360384",
+          "name":"Black Tourmaline",
+          "description":"Black Tourmaline is a powerful stone of protection. Black tourmaline works to absorb negative energy within or around you. It will help to dissolve internal, mental, and emotional blockages that may be preventing you from connecting with your angels. It's also wonderful for dispelling fear and negativity, that can block you from seeing and experiencing the presence of your angels too!",
+          "price":2.90,
+          "category":1,
+          "rating":4.8,
+          "image_url":"https://i1.wp.com/crystalcurious.com/wp-content/uploads/2019/01/black-tourmaline.jpg?fit=1000%2C1000&ssl=1",
+          "image":"im58.jpg"
+       }
+    },
+    {
+       "pk":24,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003440111",
+          "name":"Blue Lace Agate",
+          "description":"Blue Lace Agate brings a calm and soothing energy that dispels confusion and tension while promotes optimism and positivity. Blue Lace Agate also clarifies thinking and communication and can support you in directly connecting with and communicating with your team of guides and angels in Spirit.",
+          "price":4.20,
+          "category":1,
+          "rating":3.8,
+          "image_url":"https://askangels-a8bd.kxcdn.com/wp-content/uploads/2021/01/blue-lace-agate.jpg",
+          "image":"im59.jpg"
+       }
+    },
+    {
+       "pk":25,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003540313",
+          "name":"Green Prehnite",
+          "description":"Green Prehnite is a beautiful stone that is associated with the heart chakra and with unconditional love. It is a powerful stone for healers to use to bring healing energy to themselves. Prehnite also heightens psychic knowing and is closely resonate with the Archangelic Realms and can support you in opening your heart in order to hear, know and experience your direct connection with angels.",
+          "price":4.20,
+          "category":1,
+          "rating":3.0,
+          "image_url":"https://img0.etsystatic.com/039/0/5247318/il_fullxfull.599613188_o08k.jpg",
+          "image":"im60.jpg"
+       }
+    },
+    {
+       "pk":26,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003560513",
+          "name":"Black Obsidian",
+          "description":"Black obsidian is a powerful stone of protection. The energy it emits has the ability to protect you from the darkness that lingers around every corner. Healers believe that its cleansing powers shed a light on the darkness that you may not even see or feel yourself!",
+          "price":5.00,
+          "category":2,
+          "rating":4.4,
+          "image_url":"https://i.pinimg.com/736x/00/98/d2/0098d25acbbcfa6a6056c5b768c4f2d8.jpg",
+          "image":"im61.jpg"
+       }
+    },
+    {
+       "pk":27,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003560948",
+          "name":"Alexandrite",
+          "description":"Often called the Chameleon Stone, Alexandrites symbolism is as diverse as its hues. Alexandrite most commonly represents wisdom and good luck. However, the complementary colours on the Alexandrites surface take its meaning a bit deeper.",
+          "price":4.90,
+          "category":1,
+          "rating":5.0,
+          "image_url":"https://images.fineartamerica.com/images-medium-large-5/alexandrite-stone-natural-history-museum-londonscience-photo-library.jpg",
+          "image":"im71.jpg"
+       }
+    },
+    {
+       "pk":28,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003570628",
+          "name":"Seven Chakras. Healing Crystal Set.",
+          "description":"Many people believe that stones have the ability to hold large amounts of therapeutic energy and power because it takes millions of years for crystals and gemstones to form underground. Although there is no scientific proof that crystal therapy works as a method of treatment, more and more individuals are open to seeking out the potential advantages that crystals have to offer. It is a widely held view that certain crystals and stones contain high vibrational energy, which can be transmitted to you and restore your own energetic balance. Chakras are considered to be your most important energy centre, and gemstones can truly assist you in restoring your spiritual energies within these vortexes of energy. Each chakra can be balanced and healed by chakra stones and crystals.",
+          "price":15.00,
+          "category":4,
+          "rating":4.3,
+          "image_url":"https://ae01.alicdn.com/kf/HTB1YL5rNpXXXXchapXXq6xXFXXXH/TUMBEELLUWA-Healing-Crystal-7-Chakra-Polished-Engraved-Palm-Pocket-Stones-Reiki-Balancing-Set-of-7.jpg",
+          "image":"im50.jpg"
+       }
+    },
+    {
+       "pk":29,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003620308",
+          "name":"Amethyst Elephant Bracelet",
+          "description":"Wear amethyst to reduce stress, bring deep inner peace and connect to your flow of intuition. This bracelet is made with authentic amethyst, rose quartz, hematite and an elephant charm.",
+          "price":10.49,
+          "category":5,
+          "rating":4.6,
+          "image_url":"https://thecrystalelephant.com/wp-content/uploads/2020/02/Amethyst-Elephant-2SQ.jpg",
+          "image":"im8.jpg"
+       }
+    },
+    {
+       "pk":30,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003690115",
+          "name":"Seven Chakras. Healing Heart Bracelet.",
+          "description":"Its purpose and meaning is to help balance seven energy centre in the human body. Most energy healing bracelets are constructed of chakra cleansing stones and colours that are associated with each of your chakras. Would you like a chakra healing bracelet?",
+          "price":10.49,
+          "category":5,
+          "rating":5.0,
+          "image_url":"https://img-va.myshopline.com/image/store/2000218558/1638201516455/cc935ddc4f86495baf354e85a216aa19.jpg?w=1000&h=1000",
+          "image":"im51.jpg"
+       }
+    },
+    {
+       "pk":31,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003690116",
+          "name":"Blue Agate Rune Set of 24 stones",
+          "description":"For divination and fortune telling.",
+          "price":25.00,
+          "category":4,
+          "rating":4.0,
+          "image_url":"https://5.imimg.com/data5/ANDROID/Default/2020/11/MW/ZP/YY/2679491/product-jpeg.jpg",
+          "image":"im16.jpg"
+       }
+    },
+    {
+       "pk":32,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003780391",
+          "name":"Aventurine Rune Stones",
+          "description":"Rune stones are used as tools of divination- a way to get ones answer for (past situation, present situation or future situation).",
+          "price":18.00,
+          "category":4,
+          "rating":4.8,
+          "image_url":"https://i.pinimg.com/originals/0c/20/ee/0c20ee19618b92eaea6954a8f082487a.jpg",
+          "image":"im49.jpg"
+       }
+    },
+    {
+       "pk":33,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003790542",
+          "name":"Premium Healing Crystals kit in gift box.",
+          "description":"7 Chakra Set Tumbled Stones, Meditation Stone, Yoga Amulet, Meditation Double Point Wand, Crystals Positive Energy Generator.",
+          "price":25.00,
+          "category":4,
+          "rating":4.5,
+          "image_url":"https://images.ctfassets.net/mk0gyd3cqdg6/1lGQsm5GhANMfJ7Bp3p8Cp/d441b14a5f09a8fad9c16591af3382fb/Zatny_Crystals_Premium_Healing_Crystals_Gift_Kit.png?w=1000&h=563&fit=pad&fm=jpg&bg=white",
+          "image":"im65.jpg"
+       }
+    },
+    {
+       "pk":34,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003831225",
+          "name":"Throat Chakra Tumble Stone set.",
+          "description":"All of the genuine stones in this set are beneficial for the Throat Chakra. We will send your crystals to you with the intention that they will do their absolute best for you!",
+          "price":15.00,
+          "category":6,
+          "rating":4.5,
+          "image_url":"https://cdn.shopify.com/s/files/1/0658/8669/products/s-l1600_95_1024x1024.jpg?v=1516369397",
+          "image":"im66.jpg"
+       }
+    },
+    {
+       "pk":35,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003861402",
+          "name":"Mens Tiger Eye Bracelet",
+          "description":"Tiger eye lets you see everything, while enhancing the connection with your personal power. It improves your insights, softens stubbornness, and fosters self-confidence. The Tiger Eye may bring good luck and protection from the evil eye to the wearer promoting balance and strength to get through difficult phases of life.",
+          "price":8.20,
+          "category":6,
+          "rating":4.7,
+          "image_url":"https://m.media-amazon.com/images/I/51My1-uAffL._AC_UL1000_.jpg",
+          "image":"im67.jpg"
+       }
+    },
+    {
+       "pk":36,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003910638",
+          "name":"Diabetes Relief Chrysocolla Bracelet",
+          "description":"Chrysocolla with many health-care properties, such as detoxification of liver, kidneys and intestines. It also helps to re-oxygenate the blood, regenerate the pancreas and regulate insulin. This is a perfect stone for relieving diabetes. (Suitable for long-term wear).",
+          "price":13.00,
+          "category":6,
+          "rating":4.6,
+          "image_url":"https://images-na.ssl-images-amazon.com/images/I/61ciDnh8ioL._AC_UY695_.jpg",
+          "image":"im79.jpg"
+       }
+    }
+ ]
