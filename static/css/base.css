@@ -70,6 +70,10 @@ h2 .logo-font {
     color: #FEEAFA !important;
 }
 
+.text-dark {
+    color: #000 !important;
+}
+
 .border-black {
     border: 1px solid black !important;
 }
@@ -97,6 +101,28 @@ h2 .logo-font {
 a.category-badge > span.badge:hover {
     background: #5F2F74 !important;
     color: #FEEAFA !important;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link:hover {
+    background: #5F2F74 !important;
+    color: #FEEAFA !important;
+}
+
+.btt-link i:hover {
+    background: #5F2F74 !important;
+    color: #FEEAFA !important;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /* -------------------------------- Media Queries */
