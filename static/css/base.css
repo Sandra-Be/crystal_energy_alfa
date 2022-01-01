@@ -25,11 +25,12 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
+h2 .logo-font {
     text-transform: uppercase;
     color: #000;
     font-family: 'Abel', sans-serif !important;
     font-weight: bolder;
+    margin-top: 1.5rem;
 }
 
 .main-logo-link {
@@ -114,5 +115,16 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
