@@ -63,7 +63,7 @@ h2 .logo-font {
 .btn-black:active,
 .btn-black:focus {
     background: #5F2F74;
-    color: white;
+    color: #FFF;
 }
 
 .text-black {
@@ -75,7 +75,7 @@ h2 .logo-font {
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #000 !important;
 }
 
 .bg-banner {
@@ -123,6 +123,21 @@ a.category-badge > span.badge:hover {
 
 .btt-link {
     cursor: pointer;
+}
+
+/* Product Detail */
+
+.btn-outline-black {
+    background: #FFF;
+    color: #000 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #000;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: #5F2F74;
+    color: #FEEAFA !important;
 }
 
 /* -------------------------------- Media Queries */
