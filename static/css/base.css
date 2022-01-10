@@ -247,7 +247,7 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
+    background-color: #5F2F74;
     border: 1px solid #000;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -261,7 +261,7 @@ input[name='q']::placeholder {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #222;
+    background-color: #003D3B;
     border-color: #222;
 }
 
