@@ -25,6 +25,20 @@ body {
     width: 1.5rem;
 }
 
+.navbar-toggler .custom-toggler {
+    border-color: #003D3B;
+    color: #FEEAFA;
+}
+
+.navbar-toggler-icon i {
+    color: #FEEAFA;
+    font-size: 30px;
+}
+
+.navbar-toggler-icon i:hover {
+    color: #5F2F74;
+}
+
 .logo-font {
     text-transform: uppercase;
     color: #000;
@@ -130,6 +144,8 @@ a.category-badge > span.badge:hover {
 input[name='q']::placeholder {
     color: #aab7c4;
 }
+
+
 
 /* Product Detail */
 
