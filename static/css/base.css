@@ -12,6 +12,10 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+section {
+    height: 100%;
+}
+
 #topnav {
     background: #003D3B;
 }
@@ -316,13 +320,14 @@ input[name='q']::placeholder {
 /* Footer */
 
 body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
 }
 
 main {
-	flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 .footer {

@@ -64,7 +64,7 @@
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
-                                    <p class="mb-0">{{ product.name }}</p>
+                                    <p class="mb-0 font-weight-bold">{{ product.name }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
@@ -82,11 +82,13 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
-                                            <p>
+                                            {% if request.user.is_authenticated %}
+                                            <p class="text-right">
                                                 <a href="#">
-                                                    <i class="fas fa-heart fa-lg text-dark hvr-grow"></i>
+                                                    <i class="far fa-heart fa-lg text-dark hvr-grow"></i>
                                                 </a>
                                             </p>
+                                            {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a>
