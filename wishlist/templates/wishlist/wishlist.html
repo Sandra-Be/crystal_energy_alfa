@@ -20,10 +20,56 @@
                     <hr>
                 </div>
             </div>
+            <!-- Wishlist Items -->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="image-container mt-5">
+                        {% if product.image %}
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img class="card-img-top" src="{{ product.image.url }}" alt=" {{ product.name }}">
+                        </a>
+                        {% else %}
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png " alt=" {{ product.name }}">
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="products-detail-container my-5">
+                        <h3 class="mb-4 pt-md-5 text-dark font-weight-bold"> {{ product.name }}</h3>
+                        <h4 class="text-dark lead mb-2 text-left font-weight-bold">{{ product.price }}</h4>
+                        {% if product.category %}
+                        <p class="small">
+                            <a class="text-muted text-dark"
+                                href="{% url 'products' %}?category={{ product.category.name }}">
+                                <i class="fas fa-hashtag"></i> {{ product.category.friendly_name }}
+                            </a>
+                        </p>
+                        {% endif %}
+                    </div>
+                    <!-- Buttons -->
+                    <div class="text-center">
+                        <a class="btn btn-black" href="{% url 'product_detail' product.id %}">
+                            <span class="text-uppercase font-weight-bold">Product Details</span>
+                        </a>
+                        <a class="btn btn-outline-black" href="{% url 'remove_from_favourite' product.id %}">
+                            <span class="text-uppercase font-weight-bold">Remove from wishlist</span>
+                        </a>
+                    </div>
+                </div>
 
-            <div class="row">
-                <div class="col">
-                    
+            </div>
+            <div class="row justify-content-center">
+                <!-- Empty Wishlist Page -->
+                <div class="text-center mt-3">
+                    <h3 class="font-weight-bold text-dark text-uppercase">No products in your wishlist</h3>
+                    <a class="btn btn-light btn-lg mt-5" href="{% url 'products' %}">
+                        <span class="icon">
+                            <i class="text-dark fas fa-chevron-left"></i>
+                        </span>
+                        <span class="text-uppercase font-weight-bold text-dark">Add Products</span>
+                    </a>
                 </div>
             </div>
         </div>
