@@ -66,6 +66,16 @@
         <!-- My Account -->
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
           <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+            <!-- Wishlist -->
+            <li class="list-inline-item">
+              <a class="text-black nav-link" href="{% url 'view_bag' %}">
+                <div class="text-center">
+                    <div><i class="fas fa-heart fa-lg"></i></div>
+                    <p class="my-0">Wishlist</p>
+                </div>
+              </a>
+            </li>
+            <!-- My Account -->
             <li class="list-inline-item dropdown">
               <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="text-center">
@@ -110,8 +120,10 @@
       <!-- Navigation Menu -->
       <div class="row" id="topnav">
         <nav class="navbar navbar-expand-lg navbar-light w-100">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-bars"></i>
+            </span>
           </button>
           {% include 'includes/mobile-top-header.html' %}
           {% include 'includes/main-nav.html' %}
@@ -148,7 +160,7 @@
     {% block content %}
     {% endblock %}
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer font-weight-bold">
       {% include 'includes/footer.html' %}
     </div>
 
