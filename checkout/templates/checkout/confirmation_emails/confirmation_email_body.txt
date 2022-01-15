@@ -1,3 +1,4 @@
+{% load bag_tools %}
 Hello {{ order.full_name }}!
 
 This is a confirmation of your order at Crystal Energy. Your order information is below:
