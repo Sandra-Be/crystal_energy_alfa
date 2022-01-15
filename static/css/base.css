@@ -12,10 +12,6 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
-section {
-    min-height: 100%;
-}
-
 #topnav {
     background: #003D3B;
 }
@@ -102,6 +98,7 @@ section {
 
 .banner-font {
     color:#FEEAFA;
+    font-size: 1.5rem;
 }
 
 /* Products page */
@@ -322,13 +319,13 @@ input[name='q']::placeholder {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     min-height: 100%;
 }
 
 main {
     flex: 1 0 auto;
 }
+
 
 .footer {
     background: #003D3B;
@@ -370,5 +367,18 @@ main {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .form .btn {
+        font-size: 10px;
+    }
+
+    .increment-qty, 
+    .decrement-qty {
+        display: none;
+    }
+
+    #delivery-banner h4 {
+        font-size: 1rem;
     }
 }
