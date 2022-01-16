@@ -109,6 +109,42 @@
                 </div>
             </div>
         </div>
+        <!-- Product Reviews -->
+        <div id="product-reviews" class="row bg-light">
+            <div class="col-12 col-md-10 col-lg-4 offset-lg-4 mb-4">
+                <h2 class="text-dark font-weight-bold mt-5 mb-4">Product Reviews</h2>
+                {% if request.user.is_authenticated %}
+                    {% if update %}
+                        <!-- Edit Review Form -->
+                        <form method="POST" action="#">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+                            <div class="text-right">
+                                <button class="btn btn-black rounded-0" type="submit">Update Review</button>
+                            </div>
+                        </form>
+                    {% else %}
+                        <!--Review Form -->
+                        <form method="POST" action="#">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+                            <div class="text-right">
+                                <button class="btn btn-black rounded-0" type="submit">Submit Review</button>
+                            </div>
+                        </form>
+                    {% endif %}
+                {% else %}
+                    <p class="small"> Please <a href="{% url 'account_login' %}">Login</a> to leave a review.</p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-10 col-lg-6 offset-lg-3">  
+                <div class="text-center mt-5">
+                    <p>No reviews for this product</p>
+                </div>
+            </div>
+        </div> 
     </section>
 {% endblock %}
 
