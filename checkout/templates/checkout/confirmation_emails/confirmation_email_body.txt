@@ -1,23 +1,24 @@
 {% load bag_tools %}
-Hello {{ order.full_name }}!
 
-This is a confirmation of your order at Crystal Energy. Your order information is below:
+    Hello {{ order.full_name }}!
 
-Order Number: {{ order.order_number }}
-Order Date: {{ order.date }}
+    This is a confirmation of your order at Crystal Energy. Your order information is below:
 
-Order Total: ${{ order.order_total }}
-Delivery: ${{ order.delivery_cost }}
-Grand Total: ${{ order.grand_total }}
+    Order Number: {{ order.order_number }}
+    Order Date: {{ order.date }}
 
-Your order will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+    Order Total: ${{ order.order_total }}
+    Delivery: ${{ order.delivery_cost }}
+    Grand Total: ${{ order.grand_total }}
 
-We've got your phone number on file as {{ order.phone_number }}.
+    Your order will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
 
-If you have any questions, feel free to contact us at {{ contact_email }}.
+    We've got your phone number on file as {{ order.phone_number }}.
 
-Thank you for your order!
+    If you have any questions, feel free to contact us at {{ contact_email }}.
 
-Sincerely,
+    Thank you for your order!
 
-Crystal Energy
+    Sincerely,
+
+    Crystal Energy
