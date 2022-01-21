@@ -368,7 +368,7 @@ main {
     }
 
     .form .btn {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .increment-qty, 
@@ -389,6 +389,10 @@ main {
         color: #FEEAFA;
         font-family: 'Abel', sans-serif !important;
         margin-top: 0.5rem;
+    }
+
+    .title-font {
+        font-size: 1.5rem;
     }
 
     .btn.btn-outline-black.rounded-0,

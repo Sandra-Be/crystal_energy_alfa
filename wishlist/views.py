@@ -1,4 +1,6 @@
-from django.shortcuts import render, reverse, redirect, HttpResponse, get_object_or_404, get_list_or_404
+from django.shortcuts import (
+    render, reverse, redirect, HttpResponse, get_object_or_404, get_list_or_404
+)
 from .models import Product, UserProfile, Wishlist, WishlistItem
 from django.contrib.auth.decorators import login_required
 
@@ -49,7 +51,7 @@ def add_to_wishlist(request, product_id):
     user = get_object_or_404(UserProfile, user=request.user)
     wishlist = Wishlist.objects.get_or_create(user=user)
     wishlist_user = wishlist[0]
-    
+
     product = Product.objects.get(pk=product_id)
     if request.POST:
         existingWishlistItem = WishlistItem.objects.filter(
