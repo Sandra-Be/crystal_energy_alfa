@@ -39,7 +39,7 @@ body {
     color: #5F2F74;
 }
 
-.logo-font {
+.title-font {
     text-transform: uppercase;
     color: #000;
     font-family: 'Abel', sans-serif !important;
@@ -145,8 +145,6 @@ a.category-badge > span.badge:hover {
 input[name='q']::placeholder {
     color: #aab7c4;
 }
-
-
 
 /* Product Detail */
 
@@ -362,7 +360,7 @@ main {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 80px;
     }
 
     body {
@@ -378,7 +376,29 @@ main {
         display: none;
     }
 
+    .nav-link {
+        padding: 0.15rem;
+    }
+
     #delivery-banner h4 {
         font-size: 1rem;
+    }
+
+    .logo-font {
+        text-transform: uppercase;
+        color: #FEEAFA;
+        font-family: 'Abel', sans-serif !important;
+        margin-top: 0.5rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
     }
 }
