@@ -62,24 +62,24 @@
             <div class="row">
                 <div class="d-none d-md-block col-md-4 mr-5 mb-3">
                     {% if review.name.image %}
-                    <img src="{{ MEDIA_URL }}{{ review.name.image }}" alt="{{ review.name }}">
+                        <img src="{{ MEDIA_URL }}{{ review.name.image }}" alt="{{ review.name }}">
                     {% else %}
-                    <img src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.name }}">
+                        <img src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.name }}">
                     {% endif %}
                 </div>
                 <div class="col-md-5 ml-5">
                     <p class="mb-0 lead font-weight-bold">{{ review.name }}</p>
                     {% if review.title %}
-                    <p class="mb-0 font-weight-bold">{{ review.title }}</p>
+                        <p class="mb-0 font-weight-bold">{{ review.title }}</p>
                     {% endif %}
-                    <p class="text-justify"> {{ review.body }}</p>
-                    <p class="mb-0 small font-weight-bold">Posted by : {{ review.username }}</p>
-                    <p class="mb-0 small">First posted on : {{ review.firstcreated }}</p>
-                    <p class="small">Last editted on : {{ review.lasteditted }}</p>
+                        <p class="text-justify"> {{ review.body }}</p>
+                        <p class="mb-0 small font-weight-bold">Posted by : {{ review.username }}</p>
+                        <p class="mb-0 small">First posted on : {{ review.firstcreated }}</p>
+                        <p class="small">Last editted on : {{ review.lasteditted }}</p>
                     {% if request.user.is_superuser or review.username == request.user %}
-                    <a href="{% url 'edit_review' review.id %}" class="btn-black btn-sm rounded-0">Edit</a>
-                    <a href="#checkDeleteModal" class="delete btn-black btn-sm rounded-0"
-                        data-attr-id={{ review.id }}>Remove</a>
+                        <a href="{% url 'edit_review' review.id %}" class="btn-black btn-sm rounded-0">Edit</a>
+                        <a href="#checkDeleteModal" class="delete btn-black btn-sm rounded-0"
+                            data-attr-id={{ review.id }}>Remove</a>
                     {% endif %}
                 </div>
             </div>
