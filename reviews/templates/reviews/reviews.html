@@ -61,14 +61,14 @@
             {% for review in reviews %}
             <div class="row">
                 <div class="d-none d-md-block col-md-4 mr-5 mb-3">
-                    {% if review.product.image %}
-                    <img src="{{ review.product.image.url }}" alt="{{ review.product.name }}">
+                    {% if review.name.image %}
+                    <img src="{{ MEDIA_URL }}{{ review.name.image }}" alt="{{ review.name }}">
                     {% else %}
-                    <img src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.product.name }}">
+                    <img src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.name }}">
                     {% endif %}
                 </div>
                 <div class="col-md-5 ml-5">
-                    <p class="mb-0 lead font-weight-bold">{{ review.product.name }}</p>
+                    <p class="mb-0 lead font-weight-bold">{{ review.name }}</p>
                     {% if review.title %}
                     <p class="mb-0 font-weight-bold">{{ review.title }}</p>
                     {% endif %}

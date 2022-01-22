@@ -312,6 +312,13 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* Review */
+
+.review-container img {
+    width: 200px;
+    height: 200px;
+}
+
 /* Footer */
 
 body {
@@ -405,4 +412,5 @@ main {
         padding: .375rem .375rem;
         font-size: .75rem;
     }
+
 }

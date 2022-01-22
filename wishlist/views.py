@@ -1,5 +1,5 @@
 from django.shortcuts import (
-    render, reverse, redirect, HttpResponse, get_object_or_404, get_list_or_404
+    render, reverse, redirect, get_object_or_404, get_list_or_404
 )
 from .models import Product, UserProfile, Wishlist, WishlistItem
 from django.contrib.auth.decorators import login_required
