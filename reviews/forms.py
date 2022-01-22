@@ -2,11 +2,12 @@ from django import forms
 from .models import Review
 
 
-class ReviewForm(forms.ModelForm):
+class Review(forms.ModelForm):
 
     class Meta:
         model = Review
-        fields = ['name', 'title', 'body', ]
+#        fields = ['name', 'title', 'body', ]
+        fields = ['product', 'title', 'body']
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
