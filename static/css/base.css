@@ -41,10 +41,11 @@ body {
 
 .title-font {
     text-transform: uppercase;
-    color: #000;
+    color: #FEEAFA;
     font-family: 'Abel', sans-serif !important;
     font-weight: bolder;
     margin-top: 0.5rem;
+    text-shadow:#888 2px 2px 3px;
 }
 
 .main-logo-link {
@@ -144,6 +145,18 @@ a.category-badge > span.badge:hover {
 
 input[name='q']::placeholder {
     color: #aab7c4;
+}
+
+.btn-without-border {
+    border: none; 
+    outline: none;
+    background-color: #FFF;
+    font-size: 30px;
+    padding: 0; 
+}
+
+.btn-without-border i:hover {
+    color: #dc3545;
 }
 
 /* Product Detail */
@@ -319,6 +332,13 @@ input[name='q']::placeholder {
     height: 200px;
 }
 
+/* Wishlist */
+
+.wishlist-container img {
+    width: 150px;
+    height: 150px;
+}
+
 /* Footer */
 
 body {
@@ -362,6 +382,11 @@ main {
     .header-container {
         padding-top: 164px;
     }
+
+    .card-img-top {
+        height: 350px;
+        width: 350px;
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -380,7 +405,7 @@ main {
 
     .increment-qty, 
     .decrement-qty {
-        display: none;
+        padding: .18rem .2rem !important;
     }
 
     .nav-link {
@@ -413,4 +438,24 @@ main {
         font-size: .75rem;
     }
 
+    .card-img-top {
+        height: 382px;
+        width: 382px;
+    }
+}
+
+@media (max-width: 789px) {
+    .card-img-top {
+        height: 300px;
+        width: 300px;
+    }
+
+    .img-fluid {
+        height: 250px;
+        width: 250px;
+    }
+
+    .quantity-btn a {
+        display: none;
+    }
 }
