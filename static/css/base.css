@@ -200,6 +200,7 @@ input[name='q']::placeholder {
 .toast-capper {
     height: 2px;
 }
+
 /* Shopping Bag notification wrapper */
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
