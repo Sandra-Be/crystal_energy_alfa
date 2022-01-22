@@ -2,7 +2,7 @@
 
 ![Crystal Energy](documentation/website/responsive.jpg "Crystal Energy")
 
-* [Click here](https://git.heroku.com/crystal-energy.git) and view the live project.
+* [Click here](https://crystal-energy.herokuapp.com/) and view the live project.
 
 # Table of contents
 
