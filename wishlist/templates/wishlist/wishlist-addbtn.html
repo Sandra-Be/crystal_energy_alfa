@@ -1,0 +1,4 @@
+<form class="form update-form" method="POST" action="{% url 'product_detail' product.id %}">
+    {% csrf_token %}
+    <button class="btn btn-black rounded-0 text-uppercase mt-1">Add to Bag</button>
+</form>

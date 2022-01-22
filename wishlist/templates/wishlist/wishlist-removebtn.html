@@ -1,0 +1,5 @@
+<form class="form update-form" method="POST" action="{% url 'remove_from_wishlist' product.id %}">
+    {% csrf_token %}
+    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+    <button class="btn btn-black rounded-0 text-uppercase mt-1">Remove</button>
+</form>
