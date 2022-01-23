@@ -94,7 +94,7 @@ The website is fully interactive, built with mobile-first design in mind, and ac
 
 * To provide a platform for users to purchase products
 * To be able to add/edit/remove products
-* To be able to share reviews with my users and to be able to edit/remove my reviews
+* To be able to share reviews with my users and to be able to remove my reviews
 * To provide an option for users to add/update/remove products from shopping bag
 * To provide an option for users to add/remove products on wishlist for later
 
@@ -128,84 +128,127 @@ The website is fully interactive, built with mobile-first design in mind, and ac
 
 
 ## Structure
-
 ### Site structure
 
-![Structure](project_files/website/structure_magic.jpg "Structure")
+Website starts with a landing page and from there the user can either follow the main navigation links to all products with sorting options, crystals, gifts or reviews or click on "Shop Now" button and view all products. This page also has a link to the users account which provides the ability to register if they have not already done so. There is also a link to the user's shopping bag.
+
+* The products, crystals, gifts, reviews, shopping bag and checkout pages are available to all users. 
+* The wishlist and logout page is available to only registered users.
+* The page to add or remove reviews is only avilable to registered users.
+* The page to view wishlist and add/remove product on wishlist is only available for registered users.
+* The pages to add/update/remove products or to manage reviews are only available for admin/superuser.
+* All registered users can access their profile page. This lists their personal details and information on past orders made.
+* Admin/superuser also has access to the django admin page where all the data can be accessed and modified.
 
 ## Skeleton
 ### Quick sketch
 
-![Quick sketch](project_files/website/sketch.jpg "Quick sketch")
+![Quick sketch](documentation/website/sketch.jpg "Quick sketch")
 
 ### Wireframes
 
-View of the main home page for website:
+View of the main Home page for website:
 
-![Wireframes](project_files/wireframes/wireframes_magic.png "Wireframes") 
+![Wireframes](documentation/wireframes/main_page.png "Wireframes") 
 
 Views of the rest pages on website:
 
-
+* [Registered user Home page](documentation/wireframes/user_main_page.png "Registered user Home page")
+* [Products page](documentation/wireframes/products_page.png "Products page")
+* [Registered user Products page](documentation/wireframes/products_user_page.png "Registered user Products page")
+* [Product details page](documentation/wireframes/product_view.png "Product details page")
+* [Registered user Product details page](documentation/wireframes/product_user_view.png "Registered user Product details page")
+* [Reviews](documentation/wireframes/review.png "Reviews")
+* [Registered user Reviews](documentation/wireframes/user_review.png "Registered user Reviews")
+* [Add Reviews](documentation/wireframes/add_review.png "Add Reviews")
+* [Login](documentation/wireframes/login.png "Login")
+* [Register](documentation/wireframes/register.png "Register")
+* [Logout](documentation/wireframes/logout.png "Logout")
+* [Profile](documentation/wireframes/profile.png "Profile")
+* [Admin Product Management](documentation/wireframes/product_management.png "Admin Product Management")
+* [Wishlist](documentation/wireframes/wishlist.png "Wishlist")
+* [Shopping Bag](documentation/wireframes/shopping_bag.png "Shopping Bag")
+* [Checkout](documentation/wireframes/checkout.png "Checkout")
 
 ## Design
 ### Colour scheme
 
-Colours of ... [mycolor.space](http://mycolor.space) is used throughout site.
+Colours of green, pink and purple from [mycolor.space](http://mycolor.space) is used throughout site.
 
-![Colour palette](project_files/website/colours.jpg "Colour palette")
+![Colour palette](documentation/website/colour_palette.jpg "Colour palette")
 
 ### Fonts
 
-
+Abel font is a modern interpretation of the condensed flat-sided sans serif. Originally used for newspaper headlines and posters, this style can also be used for text on the web. Its angled terminals and spiked stems give it enough style to be unique at display sizes, while its mono-weight still works well at smaller text sizes.
 
 ### Media
 
-
+Card Panel and contrasting colours are used to strike and catch the user's attention to promote the website.
 
 ### Languages
 
-This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML), [CSS3](https://en.wikipedia.org/wiki/CSS) Cascading Style Sheets (CSS), [jQ](https://en.wikipedia.org/wiki/JQuery) jQuery (jQuery) and [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) Python.
+This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML), [CSS3](https://en.wikipedia.org/wiki/CSS) Cascading Style Sheets (CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript) JavaScript and [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) Python.
 
 ### Technologies Used
 
-* [BSON](https://bsonspec.org/) - bson.objectid is a required dependency for MongoDB management system.
-* [MongoDB](https://www.mongodb.com/) - used for database functionality.
-* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - used to host the database.
+* [Django](https://www.djangoproject.com/) framework was used to build the project.
 * [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
 * [Google Fonts](https://fonts.google.com/) - were used throughout the site.
 * Icons on website were added with [Font Awesome](https://fontawesome.com/).
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - framework used to create and populate the templates.
 * [Jinja](https://jinja.palletsprojects.com/en/3.0.x/) - Jinja templating language was used to simplify and display backend data in html.
-* [JQuery](https://jquery.com/) - used to activate the Materialize functionality.
-* [PyMongo](https://pypi.org/project/pymongo/) - flask_pymongo used for interacting with MongoDB database from Python.
-* [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/) - used for password hashing and authentication.
+* [JQuery](https://jquery.com/) JavaScript.
 * [Git](https://git-scm.com/) - used for version control to commit to Git and push to Heroku.
 * Project code stored on [GitHub](https://github.com/).
 * [gitpod.io](https://gitpod.io/workspaces) was used for coding.
 * [Heroku](https://www.heroku.com/home) - cloud platform used to deploy application.
+* [sqlite](https://sqlite.org/index.html) was used to store data in development and [postgresql](https://www.postgresql.org/) in the deployed project.
+* [Amazon Simple Storage Service (s3)](https://aws.amazon.com/products/storage/?nc2=h_ql_prod_st) was used to store the static files for the deployed project.
+* [Stripe](https://stripe.com/en-ie) was used as a payment platform for secure checkout and payment.
 * [PEP8](https://www.python.org/dev/peps/pep-0008/) - used to check code for PEP8 requirements.
 * [PEP8online](http://pep8online.com/) - used to check code for PEP8 requirements.
-* [RandomKeygen](https://randomkeygen.com/) - used to generate secure password to Secret Key.
+* [miniwebtool.com](https://miniwebtool.com/django-secret-key-generator/) - used to generate secure password to Secret Key.
+* [Bootstrap4](https://getbootstrap.com/) was used for styling.
+* [BrandCrowd](https://www.brandcrowd.com/maker/logos) was used to generate logo for website.
+* [Gunicorn](https://gunicorn.org/) was used to aid the deployment to Heroku.
+* The Django [allauth](https://django-allauth.readthedocs.io/en/latest/) and [crispy forms](https://django-crispy-forms.readthedocs.io/en/latest/) modules were used for this project.
+* [Pillow](https://python-pillow.org/) is python imaging library and was used to help processing image files to store in the database.
+* [Pyscopg2](https://pypi.org/project/psycopg2/) was used as a PostgreSQL database adapter.
 * Wireframes were created on [Balsamiq](https://balsamiq.com/).
-* [Am I Responsive!](http://ami.responsivedesign.is/) website to review projects responsiveness.
 * [jshint.com](http://jshint.com) used for jQuery code validation.
 * [W3C Markup Validation Service](https://validator.w3.org/) used for HTML code validation.
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) used for CSS code validation.
 
 # Completed Live Site
 
-![Website Layout](project_files/website/website_layout.jpg "Website Layout")
-
-* [Click here](https://magic-spells-project.herokuapp.com/) and view the live site.
+* [Click here](https://crystal-energy.herokuapp.com/) and view the live site.
 
 ## Existing features 
 
+**Home app**
+This app introduces the website. It has a navbar at the top that includes logo, search box, links to the users account and their shopping basket. For registered users navbar has wishlist app option. It has the buttons to let users view and sort products and reviews. There is a link in form of button  to a general product app. Footer is placed on the bottom of the page.
 
+**Product app**
+This is where all products are displayed. Products can be sorted and by name, price, ratting and category. Each products image links to a page that shows the individual products details. For admin/superuser there are links for pages to edit or remove product. Footer is placed on the bottom of the page.
+
+**Reviews app**
+This displays all the reviews that have been added to the site. It can be sorted by author, product name and date posted. Users, who are not logged in can read all the reviews that have been made about all the products and (if registered and logged in) they can add their own review or remove it. Footer is placed on the bottom of the page.
+
+**Shopping bag app**
+This can be accessed from the shopping bag icon on the navbar or from the toast that appears when a user adds an item. Page has a form for the user to add their details. It is populated with the user's information if they have previously selected the option to save that infomation to their profile. Shopping bag also shows all the products in the user's shopping bag, the subtotal, delivery charge and a grand total. From here the user has the option to keep shopping or to go to secure checkout. Footer is placed on the bottom of the page.
+
+**Checkout app**
+This page has a form for the user to add their details and their credit card number, a summary of the order, and the option to complete the order or return to their shopping bag. Footer is placed on the bottom of the page.
+
+**Profile app**
+This displays the user's billing address details, gives them the option to update details. Page also displays a summary of any previous orders user has made. Footer is placed on the bottom of the page.
+
+**Wishlist app**
+This displays all the products user has added to wishlist. User has to be registred to do so. Page also displays add to bag and remove buttons for user to decide what to do with product. Product stays in wishlist if user leaves website and stays for next time when user returns. Footer is placed on the bottom of the page.
 
 ## Features to Implement in future
 
-
+* Functionality for users to edit review
+* Order tracking system for user to track their order from the website.
 
 # Testing
 

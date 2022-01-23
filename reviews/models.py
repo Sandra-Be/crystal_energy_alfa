@@ -8,7 +8,6 @@ class Review(models.Model):
     username = models.ForeignKey(User, on_delete=models.CASCADE,
                                  null=True, blank=True)
     name = models.ForeignKey(Product, on_delete=models.CASCADE)
-#    name = models.CharField(max_length=254)
     title = models.CharField(max_length=254, null=True, blank=True)
     body = models.CharField(max_length=1000)
     firstcreated = models.DateTimeField(auto_now_add=True)

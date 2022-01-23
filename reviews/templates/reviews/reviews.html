@@ -77,7 +77,6 @@
                         <p class="mb-0 small">First posted on : {{ review.firstcreated }}</p>
                         <p class="small">Last editted on : {{ review.lasteditted }}</p>
                     {% if request.user.is_superuser or review.username == request.user %}
-                        <a href="{% url 'edit_review' review.id %}" class="btn-black btn-sm rounded-0">Edit</a>
                         <a href="#checkDeleteModal" class="delete btn-black btn-sm rounded-0"
                             data-attr-id={{ review.id }}>Remove</a>
                     {% endif %}
