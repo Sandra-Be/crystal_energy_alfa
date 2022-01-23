@@ -213,6 +213,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 * [Pillow](https://python-pillow.org/) is python imaging library and was used to help processing image files to store in the database.
 * [Pyscopg2](https://pypi.org/project/psycopg2/) was used as a PostgreSQL database adapter.
 * Wireframes were created on [Balsamiq](https://balsamiq.com/).
+* [Shortpixel.com](https://shortpixel.com/pricing-one-time) was used to reduce the size for images.
 * [jshint.com](http://jshint.com) used for jQuery code validation.
 * [W3C Markup Validation Service](https://validator.w3.org/) used for HTML code validation.
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) used for CSS code validation.
