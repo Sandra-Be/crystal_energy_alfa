@@ -40,7 +40,6 @@
 5. [Database Design](#Database-Design)
    * [Database schema](#Database-schema)
 6. [Deployment](#Deployment)
-   * [MongoDB Configuration](#MongoDB-Configuration)
    * [Heroku Deployment](#Heroku-Deployment)
    * [Forking the Repository](#Forking-the-Repository)
    * [Creating a Clone](#Creating-a-Clone)
@@ -281,31 +280,62 @@ Throughout the website every link, field and icon was tested and all results are
 
 | Location | Type | Expected Result | Actual Result | Pass/Fail/Not executed|
 | :----: | :----: | :----: | :----: | :----: |
+| Navbar | *Home* link | Click on *Home* link navigates to Home page | Navigates to Home page | Pass |
+| Navbar | *All Products* link | Click on *All Products* link opens nav dropdown | Opens nav dropdown | Pass |
+| Navbar | Crystal Energy Logo | Click on Crystal Energy Logo navigates to Home page | Navigates to Home page | Pass |
+| Navbar | *Crystals* link | Click on *Crystals* link opens nav dropdown | Opens nav dropdown | Pass |
+| Navbar | *Gifts* link | Click on *Gifts* link opens nav dropdown | Opens nav dropdown | Pass |
+| Navbar | *Reviews* link | Click on *Reviews* link navigates to Reviews page | Navigates to Reviews page | Pass |
+| Navbar | *By Price* dropdown link | Click on *By Price* dropdown link navigates to Products page with products sorted by price | Navigates to Products page with products sorted by price | Pass |
+| Navbar | *By Rating* dropdown link | Click on *By Rating* dropdown link navigates to Products page with products sorted by rating | Navigates to Products page with products sorted by rating | Pass |
+| Navbar | *By Category* dropdown link | Click on *By Category* dropdown link navigates to Products page with products sorted by category | Navigates to Products page with products sorted by category | Pass |
+| Navbar | *All Products* dropdown link | Click on *All Products* dropdown link navigates to Products page | Navigates to Products page | Pass |
+| Navbar | *Angel Healing Crystals* dropdown link | Click on *Angel Healing Crystals* dropdown link navigates to Angel Healing Crystals products | Navigates to Angel Healing Crystals products | Pass |
+| Navbar | *Chakra Healing Crystals* dropdown link | Click on *Chakra Healing Crystals* dropdown link navigates to Chakra Healing Crystals products | Navigates to Chakra Healing Crystals products | Pass |
+| Navbar | *Best Healing Crystals* dropdown link | Click on *Best Healing Crystals* dropdown link navigates to Best Healing Crystals products | Navigates to Best Healing Crystals products | Pass |
+| Navbar | *All Crystals* dropdown link | Click on *All Crystals* dropdown link navigates to All Healing Crystals products | Navigates to All Healing Crystals products | Pass |
+| Navbar | *Home* dropdown link | Click on *Home* dropdown link navigates to products categorized for home | Navigates to products categorized for home | Pass |
+| Navbar | *Women* dropdown link | Click on *Women* dropdown link navigates to products categorized for women | Navigates to products categorized for women | Pass |
+| Navbar | *Men* dropdown link | Click on *Men* dropdown link navigates to products categorized for men | Navigates to products categorized for men | Pass |
+| Navbar | *Shop Now* button | Click on *Shop Now* button navigates to Product page | Navigates to Product page | Pass |
+| Navbar | *Log In* link | Click on *Log In* link navigates to Log In page | Navigates to Log In page | Pass |
+| Navbar | *Register* link | Click on *Register* link navigates to Register page | Navigates to Register page | Pass |
+| Navbar | *Profile* link | Click on *Profile* link navigates to Profile page | Navigates to Profile page | Pass |
+| Navbar | *Log Out* link | Click on *Log Out* link navigates to Log In page | Navigates to Log In page | Pass |
+| Navbar | Search form input field | Search form input field allows to type a text | Allows to type a text | Pass |
+| Navbar | Search form *Search* button | Search form *Search* button search for text from input field throughout products and display matching product | Search for text from input field throughout all products and display matching product | Pass |
+| Navbar | "Wishlist" icon | Click on *Wishlist* icon navigates to Wishlist page | Navigates to Wishlist page | Pass |
+| Navbar | "My Account" icon | Click on *My Account* opens dropdown nav | Opens dropdown nav | Pass |
+| Navbar | "Bag" icon | Click on *Bag* icon navigates to Shopping bag page | Navigates to Shopping bag page | Pass |
+| Product page | Product image | Click on Product image navigates to Product details page | Navigates to Product details page | Pass |
+| Product page | *Heart* icon | Click on *Heart* icon adds product to Wishlist page | Adds product to Wishlist page | Pass |
+| Product page | *Edit* link | Click on *Edit* link navigates to Product Management page (only for admin) | Navigates to Product Management page (only for admin) | Pass |
+| Product page | *Remove* link | Click on *Remove* link delete product (only for admin) | Delete product (only for admin) | Pass |
+| Reviews page | *Add Review* button | Click on *Add Review* button navigates to Add Review page (only for admin and registered user) | Navigates to Add Review page (only for admin and registered user) | Pass |
+| Reviews page | *Remove* button | Click on *Remove* button delete review (only for admin and registered user) | Delete review (only for admin and registered user) | Pass |
+| Wishlist page | *Add to Bag* button | Click on *Add to Bag* navigates to Product detail page (only for admin and registered user) | Navigates to product detail page (only for admin and registered user) | Pass |
+| Wishlist page | *Remove* button | Click on *Remove* button delete product from Wishlist (only for admin and registered user) | Delete product from Wishlist (only for admin and registered user) | Pass |
+| Wishlist page | *Keep Shopping* button | Click on *Keep Shopping* button navigates to Product page | Navigates to Product page | Pass |
+| Shopping bag page | *Secure Checkout* button | Click on *Secure Checkout* button navigates to Checkout page page | Navigates to Checkout page | Pass |
+| Login page | Login form username input field | Log In form username input field allows to type and validate a username | Allows to type and validate a username | Pass |
+| Login page | Login form password input field | Log In form password input field allows to type and validate a password | Allows to type and validate a password | Pass |
+| Login page | Login form *Log In* button | Log In form *Log In* button verify username, password and redirect to user profile page | Verify username, password and redirect to user profile page | Pass |
+| Login page | Login form *Register Account* link | Log In form *Register Account* link navigates user to Register page | Navigates user to Register page | Pass |
+| Register page | Register form email input field | Register form email input field allows to validate a email | Allows to validate a email | Pass |
+| Register page | Register form username input field | Register form username input field allows to create and validate a username | Allows to create and validate a username | Pass |
+| Register page | Register form *Log In* link | Register form *Log In* link navigates user to Log In page | Navigates user to Log In page | Pass |
+| Footer | *GitHub* icon | Click on *GitHub* icon navigates to [GitHub repository](https://github.com/Sandra-Be/crystal_energy_alfa) | Navigates to [GitHub repository](https://github.com/Sandra-Be/crystal_energy_alfa) | Pass |
 
 
 # Database Design
 
-MongoDB Atlas is used as database backend for storing user and spells details. There are three collections.
+
 
 ## Database schema
 
 ![Database Schema](project_files/website/shema.jpg "Database Schema")
 
 # Deployment
-
-## MongoDB Configuration
-
-1. Login to your [MongoDB](https://www.mongodb.com/) Account.
-2. From Clusters tab, click on Connect.
-3. Select Connect to your application.
-4. Select Python as Driver and choose Version 3.6 or later
-5. Create a new env python file in your project, paste and save the connection link and variables.
-
-![Link](project_files/website/link_snippet.jpg "Link")
-
-6. Create an instance of PyMongo.
-
-![Link](project_files/website/link_snippet1.jpg "Link")
 
 ## Heroku Deployment
 
