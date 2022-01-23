@@ -396,7 +396,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Images and text
 
-
+* The intial design, layout and functionality was taken from the Code Institute's walk through project on Boutique Ado.
 
 ## Helpfull sites
 
