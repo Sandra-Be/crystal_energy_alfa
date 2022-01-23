@@ -242,12 +242,13 @@ This page has a form for the user to add their details and their credit card num
 This displays the user's billing address details, gives them the option to update details. Page also displays a summary of any previous orders user has made. Footer is placed on the bottom of the page.
 
 **Wishlist app**
-This displays all the products user has added to wishlist. User has to be registred to do so. Page also displays add to bag and remove buttons for user to decide what to do with product. Product stays in wishlist if user leaves website and stays for next time when user returns. Footer is placed on the bottom of the page.
+This displays all the products user has added to wishlist. User has to be registred to do so. Page also displays add to bag and remove buttons for user to decide what to do with product. Using add to bag button user is redirected to products detail page where he/she can decide on quantity or size for product and finally add to bag. Product stays in wishlist if user leaves website and stays for next time when user returns. Footer is placed on the bottom of the page.
 
 ## Features to Implement in future
 
 * Functionality for users to edit review
 * Order tracking system for user to track their order from the website.
+* Every time user clicks on products wishlist heart, it become fully red and stays on product.
 
 # Testing
 
