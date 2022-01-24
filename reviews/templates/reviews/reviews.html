@@ -2,123 +2,123 @@
 {% load static %}
 
 {% block page_header %}
-<div class="container header-container">
-    <div class="row">
-        <div class="col"></div>
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
     </div>
-</div>
 {% endblock %}
 
 {% block content %}
-<div class="overlay"></div>
-<div class="container mb-2">
-    <div class="row">
-        <div class="col text-center">
-            <hr>
-            <h2 class="logo-font mb-4"> All Reviews</h2>
-            <hr>            
-            {% if request.user.is_authenticated %}
-                <a class="btn btn-black rounded-0 text-uppercase mt-2" href="{% url 'add_review' %}">Add a review</a>
+    <div class="overlay"></div>
+    <div class="container mb-2">
+        <div class="row">
+            <div class="col text-center">
                 <hr>
-            {% endif %}            
-        </div>
-        <div class="review-container col-10 offset-1">
-            <div class="row mt-1 mb-2">
-                <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
-                    <div class="sort-select-wrapper w-50">
-                        <select id="sort-selector"
-                            class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
-                            <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>
-                                Sort by...
-                            </option>
-                            <option value="username_asc" {% if current_sorting == 'username_asc' %}selected{% endif %}>
-                                Author (A-Z)
-                            </option>
-                            <option value="username_desc" {% if current_sorting == 'username_desc' %}selected{% endif %}>
-                                Author (Z-A)
-                            </option>
-                            <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>
-                                Name (A-Z)
-                            </option>
-                            <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>
-                                Name (Z-A)
-                            </option>
-                            <option value="firstcreated_asc" {% if current_sorting == 'firstcreated_asc' %}selected{% endif %}>
-                                Date Posted (oldest-newest)
-                            </option>
-                            <option value="firstcreated_desc" {% if current_sorting == 'firstcreated_desc' %}selected{% endif %}>
-                                Date Posted (newest-oldest)
-                            </option>
-                        </select>
+                <h2 class="logo-font mb-4">All Reviews</h2>
+                <hr>            
+                {% if request.user.is_authenticated %}
+                    <a class="btn btn-black rounded-0 text-uppercase mt-2" href="{% url 'add_review' %}">Add a review</a>
+                    <hr>
+                {% endif %}            
+            </div>
+            <div class="review-container col-10 offset-1">
+                <div class="row mt-1 mb-2">
+                    <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+                        <div class="sort-select-wrapper w-50">
+                            <select id="sort-selector"
+                                class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
+                                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>
+                                    Sort by...
+                                </option>
+                                <option value="username_asc" {% if current_sorting == 'username_asc' %}selected{% endif %}>
+                                    Author (A-Z)
+                                </option>
+                                <option value="username_desc" {% if current_sorting == 'username_desc' %}selected{% endif %}>
+                                    Author (Z-A)
+                                </option>
+                                <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>
+                                    Name (A-Z)
+                                </option>
+                                <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>
+                                    Name (Z-A)
+                                </option>
+                                <option value="firstcreated_asc" {% if current_sorting == 'firstcreated_asc' %}selected{% endif %}>
+                                    Date Posted (oldest-newest)
+                                </option>
+                                <option value="firstcreated_desc" {% if current_sorting == 'firstcreated_desc' %}selected{% endif %}>
+                                    Date Posted (newest-oldest)
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-md-first">
+                        <p class="mt-3 text-center text-md-left small font-italic">
+                            {{ reviews|length }} reviews
+                        </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 order-md-first">
-                    <p class="mt-3 text-center text-md-left small font-italic">
-                        {{ reviews|length }} reviews
-                    </p>
+                {% for review in reviews %}
+                <div class="row">
+                    <div class="d-none d-md-block col-md-4 mr-5 mb-3">
+                        {% if review.name.image %}
+                            <img src="{{ MEDIA_URL }}{{ review.name.image }}" alt="{{ review.name }}">
+                        {% else %}
+                            <img src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.name }}">
+                        {% endif %}
+                    </div>
+                    <div class="col-md-5 ml-5">
+                        <p class="mb-0 lead font-weight-bold">{{ review.name }}</p>
+                        {% if review.title %}
+                            <p class="mb-0 font-weight-bold">{{ review.title }}</p>
+                        {% endif %}
+                            <p class="text-justify"> {{ review.body }}</p>
+                            <p class="mb-0 small font-weight-bold">Posted by : {{ review.username }}</p>
+                            <p class="mb-0 small">First posted on : {{ review.firstcreated }}</p>
+                            <p class="small">Last editted on : {{ review.lasteditted }}</p>
+                        {% if request.user.is_superuser or review.username == request.user %}
+                            <a href="#checkDeleteModal" class="delete btn-black btn-sm rounded-0"
+                                data-attr-id={{ review.id }}>Remove</a>
+                        {% endif %}
+                    </div>
                 </div>
+                <hr>
+                {% endfor %}
             </div>
-            {% for review in reviews %}
-            <div class="row">
-                <div class="d-none d-md-block col-md-4 mr-5 mb-3">
-                    {% if review.name.image %}
-                        <img src="{{ MEDIA_URL }}{{ review.name.image }}" alt="{{ review.name }}">
-                    {% else %}
-                        <img src="{{ MEDIA_URL }}noimage.jpg" alt="{{ review.name }}">
-                    {% endif %}
-                </div>
-                <div class="col-md-5 ml-5">
-                    <p class="mb-0 lead font-weight-bold">{{ review.name }}</p>
-                    {% if review.title %}
-                        <p class="mb-0 font-weight-bold">{{ review.title }}</p>
-                    {% endif %}
-                        <p class="text-justify"> {{ review.body }}</p>
-                        <p class="mb-0 small font-weight-bold">Posted by : {{ review.username }}</p>
-                        <p class="mb-0 small">First posted on : {{ review.firstcreated }}</p>
-                        <p class="small">Last editted on : {{ review.lasteditted }}</p>
-                    {% if request.user.is_superuser or review.username == request.user %}
-                        <a href="#checkDeleteModal" class="delete btn-black btn-sm rounded-0"
-                            data-attr-id={{ review.id }}>Remove</a>
-                    {% endif %}
-                </div>
-            </div>
-            <hr>
-            {% endfor %}
         </div>
-    </div>
-    <div class="btt-button shadow-sm rounded-0 border border-black mr-5">
-        <a class="btt-link d-flex h-100">
-            <i class="fas fa-arrow-up text-dark mx-auto my-auto"></i>
-        </a>
-    </div>
-    <!-- Delete review modal -->
-    <div class="modal fade" id="checkDeleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="deleteModalLabel">
-                        Are you sure you want to remove this review?
-                    </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Once removed it can not be retreived
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-black rounded-0 " data-dismiss="modal">
-                        Cancel
-                    </button>
-                    <a href="#" class="btn btn-danger rounded-0 text-white" id="delete-confirm">
-                        Remove
-                    </a>
+        <div class="btt-button shadow-sm rounded-0 border border-black mr-5">
+            <a class="btt-link d-flex h-100">
+                <i class="fas fa-arrow-up text-dark mx-auto my-auto"></i>
+            </a>
+        </div>
+        <!-- Delete review modal -->
+        <div class="modal fade" id="checkDeleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="deleteModalLabel">
+                            Are you sure you want to remove this review?
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Once removed it can not be retreived
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-black rounded-0 " data-dismiss="modal">
+                            Cancel
+                        </button>
+                        <a href="#" class="btn btn-danger rounded-0 text-white" id="delete-confirm">
+                            Remove
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {% endblock %}
 
 {% block postloadjs %}
