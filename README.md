@@ -347,7 +347,7 @@ Throughout the website every link, field and icon was tested and all results are
     * Click on the **Crystal Energy** repository on [GitHub link](https://github.com/Sandra-Be/crystal_energy_alfa).
     * Click on the **Code** button, and copy the URL.
     * Go into your local workspace and open a new terminal.
-    * Type `git clone` and paste the URL you copied from GitHub, and press Enter. It shpuld look like this:
+    * Type `git clone` and paste the URL you copied from GitHub, and press Enter. It should look like this:
 
 ```
 git clone https://github.com/*username*/*repository*
@@ -527,7 +527,7 @@ git push heroku main
         "arn:aws:s3:::bucket_name/*"
     ]
 ```
-    * Click on `Review Policy`.
+* Click on `Review Policy`.
 * Go back to `User Groups` and click on the group name you just created, click on the `Permissions` then `Attach Policies` and search for the policy you've just created and then click on `Attach Policy` to attach the policy to the group.
 * Click on `Users` and then click on `Add Users`.
     * Set your user's name and give `Programmatic Access`.
