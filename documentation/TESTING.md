@@ -36,47 +36,84 @@ This Navigation bar is implemented on tablet and mobile view:
 
 2. As a user to this website, I want to view individual product details, so that I can identify the price, description, product rating, product image and available sizes (if applicable).
 
-
+![Crystal Energy](user_stories/u2.jpg "Crystal Energy")
 
 3. As a user to this website, I want to easily view the total of my purchases at any time, so that I can avoid spending too much.
 
+User can access shopping bag icon on Navigation bar and also view total of purchase including delivery cost.
 
+![Crystal Energy](user_stories/u3.jpg "Crystal Energy")
 
 4. As a user to this website, I want to easily register for an account, so that I can have a personal account and be able to view my profile.
 
-
+![Crystal Energy](user_stories/u4.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u44.jpg "Crystal Energy")
 
 5. As a user to this website, I want to easily login or logout, so that I can access my personal account information.
 
+Under icon "My account" on Navigation bar user has option for login and logout.
 
+![Crystal Energy](user_stories/u5.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u55.jpg "Crystal Energy")
 
 6. As a user to this website, I want to receive an email confirmation after registering, so that I can verify that my account registration was successful.
 
+Registration process is shown in pictures below.
 
+![Crystal Energy](user_stories/u6.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u66.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u666.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u6666.jpg "Crystal Energy")
 
 7. As a user to this website, I want to have a personalized user profile, so that I can view my personal order history and order confirmations, and save my payment information.
 
-
+![Crystal Energy](user_stories/u44.jpg "Crystal Energy")
 
 8. As a user to this website, I want to sort the list of available products, so that I can easily identify the best rated, best price and categorically sorted products.
 
+First option for user to sort products is on Navigation bar under link all products.
 
+![Crystal Energy](user_stories/u11.jpg "Crystal Energy")
+
+Second option sorting products is located in Product page.
+
+![Crystal Energy](user_stories/u8.jpg "Crystal Energy")
 
 9. As a user to this website, I want to sort a specific category of product, so that I can find the best-priced or best-rated product in a specific category, or sort the products in that category by name.
 
+All products are divided into 6 categories (Angel Healing Crystals, Chakra Healing Crystals, Best Healing Crystals, Home, Women, Men) and user can access them on Navigation bar under links Crystals and Gifts.
 
+![Crystal Energy](user_stories/u1.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u111.jpg "Crystal Energy")
+
+Categories are located in Product page with option for sorting them out.
+
+![Crystal Energy](user_stories/u9.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u99.jpg "Crystal Energy")
 
 10. As a user to this website, I want to search for a product by name or description, so that I can find a specific product I’d like to purchase.
 
+Search Bar is located in Navigation bar. This is how it looks on desktop and laptop view.
 
+![Crystal Energy](user_stories/u10.jpg "Crystal Energy")
+
+Also user can access Search bar on mobile view.
+
+![Crystal Energy](user_stories/u100.jpg "Crystal Energy")
 
 11. As a user to this website, I want to add product into wishlist, so that I can look at it later and decide if I want to purchase or remove it from wishlist.
 
+User has an option to add any product to wishlist by clicking on heart icon. This action adds product to wishlist and it stays there even if user wants to leave site. This option is available onli for registered users or admin/superuser.
 
+![Crystal Energy](user_stories/u011.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u0011.jpg "Crystal Energy")
 
 12. As a user to this website, I want to add review on product, so that I can show others my experience with product.
 
+Any user is able to view reviews, but only registered users or admin/superuser are able to add new review or remove it.
 
+![Crystal Energy](user_stories/u122.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u12.jpg "Crystal Energy")
 
 13. As a user to this website, I want to easily select quantity and size (if applicable) of a product when purchasing it, so that I can ensure I don’t accidentally select the wrong product, quantity or size.
 
@@ -164,5 +201,3 @@ Throughout the website every link, field and icon was tested and all results are
 | Register page | Register form username input field | Register form username input field allows to create and validate a username | Allows to create and validate a username | Pass |
 | Register page | Register form *Log In* link | Register form *Log In* link navigates user to Log In page | Navigates user to Log In page | Pass |
 | Footer | *GitHub* icon | Click on *GitHub* icon navigates to [GitHub repository](https://github.com/Sandra-Be/crystal_energy_alfa) | Navigates to [GitHub repository](https://github.com/Sandra-Be/crystal_energy_alfa) | Pass |
-
-Back to [MAIN](README.md/#Testing) file.
