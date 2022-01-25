@@ -165,4 +165,4 @@ Throughout the website every link, field and icon was tested and all results are
 | Register page | Register form *Log In* link | Register form *Log In* link navigates user to Log In page | Navigates user to Log In page | Pass |
 | Footer | *GitHub* icon | Click on *GitHub* icon navigates to [GitHub repository](https://github.com/Sandra-Be/crystal_energy_alfa) | Navigates to [GitHub repository](https://github.com/Sandra-Be/crystal_energy_alfa) | Pass |
 
-Back to [MAIN](./README.md/#Testing) file.
+Back to [MAIN](README.md/#Testing) file.
