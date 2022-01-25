@@ -24,15 +24,15 @@ The Navigation bar is implemented into the website, so that any user is able to 
 
 This Navigation bar is implemented on the desktop and laptop view:
 
-![Crystal Energy](documentation/user_stories/u11111.jpg "Crystal Energy")
-![Crystal Energy](documentation/user_stories/u11.jpg "Crystal Energy")
-![Crystal Energy](documentation/user_stories/u1.jpg "Crystal Energy")
-![Crystal Energy](documentation/user_stories/u111.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u11111.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u11.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u1.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u111.jpg "Crystal Energy")
 
 This Navigation bar is implemented on tablet and mobile view:
 
-![Crystal Energy](documentation/user_stories/u111111.jpg "Crystal Energy")
-![Crystal Energy](documentation/user_stories/u1111.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u111111.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u1111.jpg "Crystal Energy")
 
 2. As a user to this website, I want to view individual product details, so that I can identify the price, description, product rating, product image and available sizes (if applicable).
 
