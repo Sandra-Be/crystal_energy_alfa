@@ -49,6 +49,7 @@
    * [Images and text](#Images-and-text)
    * [Helpfull sites](#Helpfull-sites)
    * [Acknowledgements](#Acknowledgements)
+   * [Disclaimer](#Disclaimer)
 
 # Introduction
 
@@ -642,4 +643,10 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Acknowledgements 
 
 * My mentor Dick Vlaanderen for helpful feedback.
+* Tutors in Code Institute for being unfailingly helpful, patient and knowledgeable. I have to mention tutor Sean who never failed to assist, support, direct and sort out an issue, but most of all furthered my understanding of the process. Also tutor Johann who helped me with webhook issue and afterwards explaining this problem into detail.
 * Student support at Code Institute Slack platform for their support.
+* My family for all their support and feedback.
+
+## Disclaimer
+
+* All content on the website, including images and text, are used for educational purposes only.
