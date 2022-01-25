@@ -256,7 +256,7 @@ This displays all the products user has added to wishlist. User has to be regist
 
 # Testing
 
-
+Testing information can be found in seperate [TESTING.md](./documentation/TESTING.md) file.
 
 ## W3C Validation
 
@@ -637,6 +637,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Helpfull sites
 
 * [stackoverflow.com](https://stackoverflow.com/) - website for code tips.
+* [ w3schools.com](https://www.w3schools.com/) - were used for problem solving.
 * [learn.codeinstutute.net](https://learn.codeinstitute.net/login?next=/) - HTML, CSS, JavaScript and Python study materials.
 * [www.markdownguide.org](https://www.markdownguide.org/basic-syntax) - useful website for Markdown language creating README.md file.
 
@@ -650,3 +651,5 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Disclaimer
 
 * All content on the website, including images and text, are used for educational purposes only.
+
+[Back to **TOP**](#Introduction)
