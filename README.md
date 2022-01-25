@@ -33,10 +33,10 @@
    * [Features to Implement in future](#Features-to-Implement-in-future)  
 4. [Testing](#Testing)
    * [W3C Validation](./documentation/TESTING.md/#W3C-Validation)
-   * [Jshint Validation](#Jshint-Validation)
-   * [PEP8 Validation](#PEP8-Validation)
-   * [User stories testing](#User-stories-testing)
-   * [Functional testing](#Function-testing)
+   * [Jshint Validation](./documentation/TESTING.md/#Jshint-Validation)
+   * [PEP8 Validation](./documentation/TESTING.md/#PEP8-Validation)
+   * [User stories testing](./documentation/TESTING.md/#User-stories-testing)
+   * [Functional testing](./documentation/TESTING.md/#Function-testing)
 5. [Database Design](#Database-Design)
    * [Database schema](#Database-schema)
 6. [Deployment](#Deployment)
@@ -228,24 +228,31 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 ## Existing features 
 
 **Home app**
+
 This app introduces the website. It has a navbar at the top that includes logo, search box, links to the users account and their shopping basket. For registered users navbar has wishlist app option. It has the buttons to let users view and sort products and reviews. There is a link in form of button  to a general product app. Footer is placed on the bottom of the page.
 
 **Product app**
+
 This is where all products are displayed. Products can be sorted and by name, price, ratting and category. Each products image links to a page that shows the individual products details. For admin/superuser there are links for pages to edit or remove product. Footer is placed on the bottom of the page.
 
 **Reviews app**
+
 This displays all the reviews that have been added to the site. It can be sorted by author, product name and date posted. Users, who are not logged in can read all the reviews that have been made about all the products and (if registered and logged in) they can add their own review or remove it. Footer is placed on the bottom of the page.
 
 **Shopping bag app**
+
 This can be accessed from the shopping bag icon on the navbar or from the toast that appears when a user adds an item. Page has a form for the user to add their details. It is populated with the user's information if they have previously selected the option to save that infomation to their profile. Shopping bag also shows all the products in the user's shopping bag, the subtotal, delivery charge and a grand total. From here the user has the option to keep shopping or to go to secure checkout. Footer is placed on the bottom of the page.
 
 **Checkout app**
+
 This page has a form for the user to add their details and their credit card number, a summary of the order, and the option to complete the order or return to their shopping bag. Footer is placed on the bottom of the page.
 
 **Profile app**
+
 This displays the user's billing address details, gives them the option to update details. Page also displays a summary of any previous orders user has made. Footer is placed on the bottom of the page.
 
 **Wishlist app**
+
 This displays all the products user has added to wishlist. User has to be registred to do so. Page also displays add to bag and remove buttons for user to decide what to do with product. Using add to bag button user is redirected to products detail page where he/she can decide on quantity or size for product and finally add to bag. Product stays in wishlist if user leaves website and stays for next time when user returns. Footer is placed on the bottom of the page.
 
 ## Features to Implement in future
