@@ -16,7 +16,6 @@
       * [Site Owner's goal's](#Site-Owner's-goal's)
    * [Scope](#Scope)
       * [User stories](#User-stories)
-      * [Features](#Features)
    * [Structure](#Structure)
       * [Site structure](#Site-structure)
    * [Skeleton](#Skeleton)
@@ -40,7 +39,6 @@
 5. [Database Design](#Database-Design)
    * [Database schema](#Database-schema)
 6. [Deployment](#Deployment)
-   * [GitHub](#GitHub)
    * [Heroku Deployment](#Heroku-Deployment)
    * [AWS Deployment](#AWS-Deployment)
    * [Forking the Repository](#Forking-the-Repository)
@@ -124,10 +122,6 @@ The website is fully interactive, built with mobile-first design in mind, and ac
 19. As an admin to this website, I want to add a product, so that I can add new products to my store.
 20. As an admin to this website, I want to edit/update a product, so that I can change product prices, descriptions, images, and other product criteria.
 21. As an admin to this website, I want to delete a product, so that I can remove products that are no longer available.
-
-### Features
-
-
 
 ## Structure
 ### Site structure
@@ -227,13 +221,21 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ## Existing features 
 
+**Allauth features**
+
+Django allauth provided Login, Register, Password reset, Email confirmation pages etc. Later they were formatted to suit the needs of the website.
+
+**Base Template**
+
+Delivery Banner contains information about free delivery and the free delivery threshold. It is fixed under main Navigation bar. Navigation bar contains links for Home page, All Products (option for user to sort products), Crystals (divided into categories), Gifts (divided into categories) and Reviews page. Above these links any user can access Search box, My Account icon for Login and Register options and Shopping bag to view total of purchase under shopping bag icon any time. Registered users has ability to view them profile under My Account icon and view Wishlist. Admin/superuser has additional extra on top of everything under My Account for Product Management to add new product for website.
+
 **Home app**
 
-This app introduces the website. It has a navbar at the top that includes logo, search box, links to the users account and their shopping basket. For registered users navbar has wishlist app option. It has the buttons to let users view and sort products and reviews. There is a link in form of button  to a general product app. Footer is placed on the bottom of the page.
+This app introduces the website. It has a Navigation bar at the top that includes logo, Search box, links for user to Login or Register and their Shopping bag. For registered users Navigation bar has Wishlist app option. It has links for users to view products and reviews. There is a link in form of button "SHOP NOW" to a general Product app. Footer is placed on the bottom of the page.
 
 **Product app**
 
-This is where all products are displayed. Products can be sorted and by name, price, ratting and category. Each products image links to a page that shows the individual products details. For admin/superuser there are links for pages to edit or remove product. Footer is placed on the bottom of the page.
+This is where all products are displayed. Products can be sorted and by name, price, ratting and category. Each products image links to a page that shows the individual products details. Registered users can view heart icon under each product, that way registered user has option to add product to wishlist. For admin/superuser there are links for pages to edit or remove product. Footer is placed on the bottom of the page.
 
 **Reviews app**
 
@@ -241,11 +243,11 @@ This displays all the reviews that have been added to the site. It can be sorted
 
 **Shopping bag app**
 
-This can be accessed from the shopping bag icon on the navbar or from the toast that appears when a user adds an item. Page has a form for the user to add their details. It is populated with the user's information if they have previously selected the option to save that infomation to their profile. Shopping bag also shows all the products in the user's shopping bag, the subtotal, delivery charge and a grand total. From here the user has the option to keep shopping or to go to secure checkout. Footer is placed on the bottom of the page.
+This can be accessed from the shopping bag icon on the Navigation bar or from the toast that appears when a user adds a product. Page has a form for the user to add their details. It is populated with the user's information if they have previously selected the option to save that infomation to their profile. Shopping bag also shows all the products in the user's shopping bag, the subtotal, delivery charge and a grand total. From here the user has the option to keep shopping or to go to Secure Checkout. Footer is placed on the bottom of the page.
 
 **Checkout app**
 
-This page has a form for the user to add their details and their credit card number, a summary of the order, and the option to complete the order or return to their shopping bag. Footer is placed on the bottom of the page.
+This page has a form for the user to add their details and their credit card number, a summary of the order, and the option to complete the order or return to their Shopping bag. Footer is placed on the bottom of the page.
 
 **Profile app**
 
@@ -267,67 +269,11 @@ Testing information can be found in seperate [TESTING.md](./documentation/TESTIN
 
 # Database Design
 
-
-
 ## Database schema
 
 ![Database Schema](project_files/website/shema.jpg "Database Schema")
 
 # Deployment
-
-## GitHub
-
-* Add this repository to your local workspace:
-    * Click on the **Crystal Energy** repository on [GitHub link](https://github.com/Sandra-Be/crystal_energy_alfa).
-    * Click on the **Code** button, and copy the URL.
-    * Go into your local workspace and open a new terminal.
-    * Type `git clone` and paste the URL you copied from GitHub, and press Enter. It should look like this:
-
-```
-git clone https://github.com/*username*/*repository*
-```
-The process of cloning is now completed.
-* Open your IDE and run the following command to install the dependencies:
-```
-pip install -r requirements.txt
-```
-* Create an env.py file in your project root, and set your environment variables:
-```
-DEVELOPMENT=1
-SECRET_KEY=YOUR_SECRET_KEY
-STRIPE_PUBLIC_KEY=YOUR_STRIPE_PUBLIC_KEY
-STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY
-STRIPE_WH_SECRET=YOUR_STRIPE_WH_SECRET
-```
-* In your settings.py file, add your environment settings:
-```
-import os
-    
-STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
-STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
-STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
-SECRET_KEY = os.getenv('SECRET_KEY', '')
-```
-* After setting your environment varibles, run the following commands to migrate models:
-```
-python3 manage.py makemigrations --dry-run
-python3 manage.py makemigrations
-python3 manage.py migrate --plan
-python3 manage.py migrate
-```
-* Load the data to the database from the db.json file by running following command:
-```
-python3 manage.py loaddata db.json
-```
-* Create a superuser for your app:
-```
-python3 manage.py createsuperuser
-```
-* Run the following command to start the project:
-```
-python3 manage.py runserver
-```
-
 ## Heroku Deployment
 
 * Log into [Heroku.com](https://www.heroku.com/).
@@ -566,6 +512,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Images and text
 
 * The intial design, layout and functionality was taken from the Code Institute's walk through project on Boutique Ado.
+* Images and text were obtained from [Wikipedia](https://en.wikipedia.org/wiki/Crystal_healing).
 
 ## Helpfull sites
 
