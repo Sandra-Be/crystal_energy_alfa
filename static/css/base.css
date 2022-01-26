@@ -16,6 +16,10 @@ body {
     background: #003D3B;
 }
 
+#topnav-menu {
+    background: #003D3B;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
