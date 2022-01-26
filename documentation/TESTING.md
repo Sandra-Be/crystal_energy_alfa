@@ -117,38 +117,60 @@ Any user is able to view reviews, but only registered users or admin/superuser a
 
 13. As a user to this website, I want to easily select quantity and size (if applicable) of a product when purchasing it, so that I can ensure I don’t accidentally select the wrong product, quantity or size.
 
+User is able to update quantity of product in shopping bag or remove it from shopping bag.
 
+![Crystal Energy](user_stories/u13.jpg "Crystal Energy")
+
+User can select size (if applicable) of product on product detail page and than add product to shopping bag.
+
+![Crystal Energy](user_stories/u133.jpg "Crystal Energy")
 
 14. As a user to this website, I want to view items in my bag to be purchased, so that I can identify the total cost of my purchase and all items I will receive.
 
-
+![Crystal Energy](user_stories/u14.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u144.jpg "Crystal Energy")
 
 15. As a user to this website, I want to adjust the quantity of individual items in my bag, so that I can easily make changes to my purchase before checkout.
 
+User is able to update quantity of product in shopping bag or remove it from shopping bag.
 
+![Crystal Energy](user_stories/u13.jpg "Crystal Energy")
 
 16. As a user to this website, I want to easily enter my payment information, so that I can checkout quickly.
 
-
+![Crystal Energy](user_stories/u16.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u166.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u1666.jpg "Crystal Energy")
 
 17. As a user to this website, I want to view an order confirmation after checkout, so that I can verify that I haven’t made any mistakes.
 
-
+![Crystal Energy](user_stories/u17.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u177.jpg "Crystal Energy")
 
 18. As a user to this website, I want to receive an email confirmation after checking out, so that I can keep the confirmation of what I’ve purchased for my records.
 
-
+![Crystal Energy](user_stories/u18.jpg "Crystal Energy")
 
 19. As an admin to this website, I want to add a product, so that I can add new products to my store.
 
+Admin account has link added under "My Account". It is "Product management". Clicking on it navigates to Product Management page where admin is able to add new product to website including products image.
 
+![Crystal Energy](user_stories/u19.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u199.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u1999.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u19999.jpg "Crystal Energy")
 
 20. As an admin to this website, I want to edit/update a product, so that I can change product prices, descriptions, images, and other product criteria.
 
-
+![Crystal Energy](user_stories/u20.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u200.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u2000.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u20000.jpg "Crystal Energy")
+![Crystal Energy](user_stories/u200000.jpg "Crystal Energy")
 
 21. As an admin to this website, I want to delete a product, so that I can remove products that are no longer available.
 
+![Crystal Energy](user_stories/u21.jpg "Crystal Energy")
 
 # Functional testing
 
