@@ -2,10 +2,13 @@
 
 To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator.
 To make make it easier to validate html code, since using jinja templating language throughout all pages, which results in errors in online validators. I used URL address.
-For W3C Css Validator I copied css code directly.
 
 * [W3C Validator](project_files/validators/w3c.jpg "W3C Validator")
-* [W3C CSS Validator](project_files/validators/W3c_css.pdf "W3C CSS Validator")
+
+CSS code from the css files in static and checkout were tested by direct code input into [jigsaw.w3.org](http://jigsaw.w3.org/css-validator/validator):
+
+* [base.css](validation/w3c_css.jpg)
+* [checkout.css](validation/w3c_css1.jpg)
 
 # Jshint Validation
 
