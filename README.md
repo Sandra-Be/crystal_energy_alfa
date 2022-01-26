@@ -229,33 +229,37 @@ Django allauth provided Login, Register, Password reset, Email confirmation page
 
 Delivery Banner contains information about free delivery and the free delivery threshold. It is fixed under main Navigation bar. Navigation bar contains links for Home page, All Products (option for user to sort products), Crystals (divided into categories), Gifts (divided into categories) and Reviews page. Above these links any user can access Search box, My Account icon for Login and Register options and Shopping bag to view total of purchase under shopping bag icon any time. Registered users has ability to view them profile under My Account icon and view Wishlist. Admin/superuser has additional extra on top of everything under My Account for Product Management to add new product for website.
 
-**Home app**
+**Home Page**
 
-This app introduces the website. It has a Navigation bar at the top that includes logo, Search box, links for user to Login or Register and their Shopping bag. For registered users Navigation bar has Wishlist app option. It has links for users to view products and reviews. There is a link in form of button "SHOP NOW" to a general Product app. Footer is placed on the bottom of the page.
+This page introduces the website. It has a Navigation bar at the top that includes logo, Search box, links for user to Login or Register and their Shopping bag. For registered users Navigation bar has Wishlist option. It has links for users to view products and reviews. There is a link in form of button "SHOP NOW" to a general Products Page. Footer is placed on the bottom of the page.
 
-**Product app**
+**Product Page**
 
 This is where all products are displayed. Products can be sorted and by name, price, ratting and category. Each products image links to a page that shows the individual products details. Registered users can view heart icon under each product, that way registered user has option to add product to wishlist. For admin/superuser there are links for pages to edit or remove product. Footer is placed on the bottom of the page.
 
-**Reviews app**
+**Reviews Page**
 
 This displays all the reviews that have been added to the site. It can be sorted by author, product name and date posted. Users, who are not logged in can read all the reviews that have been made about all the products and (if registered and logged in) they can add their own review or remove it. Footer is placed on the bottom of the page.
 
-**Shopping bag app**
+**Shopping bag Page**
 
 This can be accessed from the shopping bag icon on the Navigation bar or from the toast that appears when a user adds a product. Page has a form for the user to add their details. It is populated with the user's information if they have previously selected the option to save that infomation to their profile. Shopping bag also shows all the products in the user's shopping bag, the subtotal, delivery charge and a grand total. From here the user has the option to keep shopping or to go to Secure Checkout. Footer is placed on the bottom of the page.
 
-**Checkout app**
+**Checkout Page**
 
 This page has a form for the user to add their details and their credit card number, a summary of the order, and the option to complete the order or return to their Shopping bag. Footer is placed on the bottom of the page.
 
-**Profile app**
+**Profile Page**
 
-This displays the user's billing address details, gives them the option to update details. Page also displays a summary of any previous orders user has made. Footer is placed on the bottom of the page.
+This page displays the user's billing address details, gives them the option to update details. Page also displays a summary of any previous orders user has made. Footer is placed on the bottom of the page.
 
-**Wishlist app**
+**Wishlist Page**
 
-This displays all the products user has added to wishlist. User has to be registred to do so. Page also displays add to bag and remove buttons for user to decide what to do with product. Using add to bag button user is redirected to products detail page where he/she can decide on quantity or size for product and finally add to bag. Product stays in wishlist if user leaves website and stays for next time when user returns. Footer is placed on the bottom of the page.
+This page displays all the products user has added to wishlist. User has to be registred to do so. Page also displays add to bag and remove buttons for user to decide what to do with product. Using add to bag button user is redirected to products detail page where he/she can decide on quantity or size for product and finally add to bag. Product stays in wishlist if user leaves website and stays for next time when user returns. Footer is placed on the bottom of the page.
+
+**Product Management Page**
+
+This page is restricted for registered admin/superuser only. It features a clean layout, and responsivness on all device sizes. Allows admin/superuser to add new products to website.
 
 ## Features to Implement in future
 
@@ -518,6 +522,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 * [stackoverflow.com](https://stackoverflow.com/) - website for code tips.
 * [ w3schools.com](https://www.w3schools.com/) - were used for problem solving.
+* [mdbootstrap.com](https://mdbootstrap.com/docs/standard/navigation/footer/) - were used for footer.
 * [learn.codeinstutute.net](https://learn.codeinstitute.net/login?next=/) - HTML, CSS, JavaScript and Python study materials.
 * [www.markdownguide.org](https://www.markdownguide.org/basic-syntax) - useful website for Markdown language creating README.md file.
 
