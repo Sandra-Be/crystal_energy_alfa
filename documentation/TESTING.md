@@ -32,7 +32,10 @@ Throughout development Python code was tested with [flake 8](https://flake8.pycq
 
 # Lighthouse testing
 
+Lighthouse Audits. The site’s Performance, Accessibility, Best Practices and SEO were assessed by Chrome Lighthouse and the results.
 
+![W3C Validator](validation/lighthouse1.jpg "W3C Validator")
+![W3C Validator](validation/lighthouse11.jpg "W3C Validator")
 
 # Manual testing
 

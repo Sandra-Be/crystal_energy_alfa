@@ -215,6 +215,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 * [Pyscopg2](https://pypi.org/project/psycopg2/) was used as a PostgreSQL database adapter.
 * Wireframes were created on [Balsamiq](https://balsamiq.com/).
 * [Shortpixel.com](https://shortpixel.com/pricing-one-time) was used to reduce the size for images.
+* [www.nchsoftware.com](www.nchsoftware.com/pixillion) - was used to convert .jpg file into .ico.
 * [jshint.com](http://jshint.com) used for jQuery code validation.
 * [W3C Markup Validation Service](https://validator.w3.org/) used for HTML code validation.
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) used for CSS code validation.
