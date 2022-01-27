@@ -24,6 +24,22 @@ For this project I used JavaScript. [Jshint](https://jshint.com/) were used to v
 
 Throughout development Python code was tested with [flake 8](https://flake8.pycqa.org/en/latest/) and problems identified were corrected where possible. [PEP8 online](http://pep8online.com/) was used to help formatting. Some lines that did not comply with PEP8 due to being too long were left if they could not be made PEP8 compliant without breaking the code. These were mainly in settings.py and migrations but there were some lines that, when corrected in PEP 8 online, no longer worked in the code.
 
+# Debugging
+
+
+
+# Lighthouse testing
+
+
+
+# Manual testing
+
+
+
+# Stripe testing
+
+
+
 # User stories testing
    
 1. As a user to this website, I want to view a list of products, so that I can select some to purchase.
