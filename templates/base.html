@@ -70,7 +70,7 @@
             <!-- Wishlist -->
             {% if request.user.is_authenticated %}
             <li class="list-inline-item">
-              <a class="text-black nav-link" href="{% url 'wishlist' %}">
+              <a class="text-black nav-link" href="#" id="wishlist" aria-label="heart" href="{% url 'wishlist' %}">
                 <div class="text-center">
                     <div><i class="fas fa-heart fa-lg"></i></div>
                     <p class="my-0">Wishlist</p>
@@ -80,7 +80,7 @@
             {% endif %}
             <!-- My Account -->
             <li class="list-inline-item dropdown">
-              <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="text-black nav-link" href="#" id="user-options" aria-label="user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="text-center">
                   <div>
                     <i class="fas fa-user fa-lg"></i>
