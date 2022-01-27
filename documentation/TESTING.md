@@ -26,6 +26,8 @@ Throughout development Python code was tested with [flake 8](https://flake8.pycq
 
 # Debugging
 
+* [Webhook Error](validation/bug1.jpg) - TLS error which generally related with webhook endpoint. I checked the endpoint URLs both in Stripe and GitPod. Gitpod had different URL than Stripe. Unfortunately GitPod time to time changes the URL path and there is nothing you can do about it, once endpoint is added for Heroku than Heroku link is not subject to change. This issue was solved and tested again. Another [Webhook Error 500](validation/bug2.jpg) appeared and [GitPod Terminal showing Error](validation/bug3.jpg). Solved this by removing newline in confirmation_email_subject.txt file. After these fixes [Webhooks started to go through](validation/bug4.jpg).
+* Reviews not showing product image - code was modified to render image correctly. [Click here to view](validation/bug5.jpg).
 
 
 # Lighthouse testing
@@ -38,7 +40,9 @@ Throughout development Python code was tested with [flake 8](https://flake8.pycq
 
 # Stripe testing
 
+Webhooks works as expected, and gives Code 200.
 
+![W3C Validator](validation/stripe200.jpg "W3C Validator")
 
 # User stories testing
    
