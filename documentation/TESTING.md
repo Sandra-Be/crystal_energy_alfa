@@ -1,9 +1,13 @@
 # W3C Validation
 
 To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator.
+
 To make make it easier to validate html code, since using jinja templating language throughout all pages, which results in errors in online validators. I used URL address.
 
-* [W3C Validator](project_files/validators/w3c.jpg "W3C Validator")
+![W3C Validator](validation/w3c.jpg "W3C Validator")
+![W3C Validator](validation/w3c1.jpg "W3C Validator")
+
+Same Warnings and Errors came up for each HTML page. First four errors/warnings with highlighted elements are added dynamically by crispy_forms, since there are no known errors with the pages these errors were ignored. The last warning refers to heading elements which are missing in footer section. Simply there is no need for any heading element. 
 
 CSS code from the css files in static and checkout were tested by direct code input into [jigsaw.w3.org](http://jigsaw.w3.org/css-validator/validator):
 
