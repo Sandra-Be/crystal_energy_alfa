@@ -39,7 +39,7 @@ Lighthouse Audits. The site’s Performance, Accessibility, Best Practices and S
 
 # Manual testing
 
-
+All pages were tested locally, and on Heroku using Chrome, Firefox, IE, and Safari. Also pages were tested for responsiveness in different device sizes using Google Chrome Developer Tools, and Google Chrome Responsive Viewer extension ( Desktop, iPhone 5/6/7/8/X, iPad 1/2/3/Pro, Galaxy Android phones).
 
 # Stripe testing
 
