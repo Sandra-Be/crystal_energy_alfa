@@ -1,8 +1,8 @@
 # W3C Validation
 
-To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator.
+To validate every page of the project, that there were no syntax errors, these two Validators were used, [W3C Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-To make make it easier to validate html code, since using jinja templating language throughout all pages, which results in errors in online validators. I used URL address.
+To make make it easier to validate HTML code, since using jinja templating language throughout all pages, which results in errors in online validators. I used URL address.
 
 ![W3C Validator](validation/w3c.jpg "W3C Validator")
 ![W3C Validator](validation/w3c1.jpg "W3C Validator")
@@ -16,12 +16,13 @@ CSS code from the css files in static and checkout were tested by direct code in
 
 # Jshint Validation
 
-For this project I used jQuery - JavaScript Library for MaterializeCSS initialization: "Write less, do more."
-Jshint were used to validate jQuery file of this project. [Click](project_files/validators/jshint.jpg) to view report.
+For this project I used JavaScript. [Jshint](https://jshint.com/) were used to validate JavaScript files of this project. Getting warnings for (use ‘esversion: 6’). To solve this you need to tell JSHint that your project is developed in ES6 by creating the .jshintrc file. 
+[Click](validation/js.jpg) to view report for stripe_elements.js file.
+[Click](validation/js1.jpg) to view report for countryfield.js file.
 
 # PEP8 Validation
 
-Python code checked for PEP8 requirements. [Click](project_files/validators/pep8.jpg) to view report.
+Throughout development Python code was tested with [flake 8](https://flake8.pycqa.org/en/latest/) and problems identified were corrected where possible. [PEP8 online](http://pep8online.com/) was used to help formatting. Some lines that did not comply with PEP8 due to being too long were left if they could not be made PEP8 compliant without breaking the code. These were mainly in settings.py and migrations but there were some lines that, when corrected in PEP 8 online, no longer worked in the code.
 
 # User stories testing
    
