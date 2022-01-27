@@ -126,7 +126,7 @@
 <script>
     $('.btt-link').click(function (e) {
         window.scrollTo(0, 0)
-    });
+    })
 
     var delete_id = -1;
 
@@ -149,12 +149,12 @@
 
             window.location.replace(currentUrl);
         }
-    });
+    })
 
     $(".delete").on("click", function (e) {
         $("#checkDeleteModal").modal('show');
         delete_id = $(this).attr("data-attr-id");
-    });
+    })
 
     $("#delete-confirm").on("click", function (e) {
         $("#checkDeleteModal").modal('hide');
