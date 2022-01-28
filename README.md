@@ -267,6 +267,14 @@ This page displays all the products user has added to wishlist. User has to be r
 
 This page is restricted for registered admin/superuser only. It features a clean layout, and responsivness on all device sizes. Allows admin/superuser to add new products to website.
 
+**Toast Message Boxes**
+
+Toast message boxes have been used through out the site to display the feedback to the user when they have made interactions with the website. These messages are colour coded to show different kind of information:
+* Green: Success
+* Red : Errors
+* Blue : Information
+* Yellow : Warning
+
 ## Features to Implement in future
 
 * Functionality for users to edit review
