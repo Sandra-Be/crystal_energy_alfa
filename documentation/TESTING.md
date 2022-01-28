@@ -34,8 +34,8 @@ Throughout development Python code was tested with [flake 8](https://flake8.pycq
 
 Lighthouse Audits. The site’s Performance, Accessibility, Best Practices and SEO were assessed by Chrome Lighthouse and the results.
 
-![W3C Validator](validation/lighthouse1.jpg "W3C Validator")
-![W3C Validator](validation/lighthouse11.jpg "W3C Validator")
+![Lighthouse](validation/lighthouse1.jpg "Lighthouse")
+![Lighthouse](validation/lighthouse11.jpg "Lighthouse")
 
 # Manual testing
 
@@ -45,7 +45,7 @@ All pages were tested locally, and on Heroku using Chrome, Firefox, IE, and Safa
 
 Webhooks works as expected, and gives Code 200.
 
-![W3C Validator](validation/stripe200.jpg "W3C Validator")
+![Stripe](validation/stripe200.jpg "Stripe")
 
 # User stories testing
    
