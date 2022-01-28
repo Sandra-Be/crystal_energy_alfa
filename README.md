@@ -45,6 +45,7 @@
 6. [Deployment](#Deployment)
    * [Heroku Deployment](#Heroku-Deployment)
    * [AWS Deployment](#AWS-Deployment)
+   * [Stripe Payment](#Stripe-Payment)
    * [Forking the Repository](#Forking-the-Repository)
    * [Creating a Clone](#Creating-a-Clone)
 7. [Credits](#Credits)
@@ -484,6 +485,20 @@ class MediaStorage(S3Boto3Storage):
 | AWS_SECRET_ACCESS_KEY | YOUR_AWS_SECRET_ACCESS_KEY |
 
 * Your deployment is now complete.
+
+## Stripe Payment
+
+* Create a [Stripe](https://stripe.com/en-ie) account and follow the steps until you land on the dashboard then under the `Developers` tab click on `API keys` where you will find your Stripe publishable key and your Stripe secret key.
+
+* Follow the steps in their documentation to setup a test webhook endpoint as your heroku app checkout webhook url (https://your_app_name.herokuapp.com/checkout/wh/) where you will get your webhook endpoint signing secret.
+
+* Set these new keys ar variables in Heroku App:
+
+| Key | Value |
+|:----|:------|
+| STRIPE_PUBLIC_KEY | YOUR_STRIPE_PUBLISHABLE_KEY |
+| STRIPE_SECRET_KEY | YOUR_STRIPE_SECRET_KEY |
+| STRIPE_WH_SECRET | YOUR_WEBHOOK_ENDPOINT_SIGNING_SECRET |
 
 ## Forking the GitHub Repository
 
