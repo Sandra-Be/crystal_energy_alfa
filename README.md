@@ -56,8 +56,9 @@
 
 # Introduction
 
-Crystal Energy is a virtual E-commerce Website. It provides the user with a list of the various products available for purchase in the store.
-The website is fully interactive, built with mobile-first design in mind, and accessible on a wide range of mobile devices, and tablets.
+Crystal Energy is a virtual E-commerce Website. It provides the user with a list of the various products available for purchase in the store. The website is fully interactive, built with mobile-first design in mind, and accessible on a wide range of mobile devices, and tablets.
+This project focuses on all major aspects of building and deploying a website, building a responsive interactive front end UI, creating a server side web application and finally performing CRUD operations on a database.
+
 
 # UX
 
