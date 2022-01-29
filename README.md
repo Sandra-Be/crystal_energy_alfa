@@ -289,7 +289,7 @@ Testing information can be found in seperate [TESTING.md](./documentation/TESTIN
 
 ## Database schema
 
-![Database Schema](project_files/website/shema.jpg "Database Schema")
+![Database Schema](documentation/website/database.jpg "Database Schema")
 
 # Deployment
 ## Heroku Deployment
@@ -510,32 +510,34 @@ class MediaStorage(S3Boto3Storage):
 
 ## Forking the GitHub Repository
 
-1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/crystal_energy_alfa).
-3. At the top of the repository, on the right side of the page, select `Fork`.
-4. You should now have a copy of the original repository in your GitHub account.
+* Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
+* Locate the [GitHub Repository](https://github.com/Sandra-Be/crystal_energy_alfa).
+* At the top of the repository, on the right side of the page, select `Fork`.
+* You should now have a copy of the original repository in your GitHub account.
 
 ## Creating a Clone
 
-1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension) Extension for Chrome.
-2. After installation, restart the browser.
-3. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-4. Locate the [GitHub Repository](https://github.com/Sandra-Be/crystal_energy_alfa).
-5. Click the green `GitPod` button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+* Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension) Extension for Chrome.
+* After installation, restart the browser.
+* Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
+* Locate the [GitHub Repository](https://github.com/Sandra-Be/crystal_energy_alfa).
+* Click the green `GitPod` button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
 ### How to run this project within a local IDE, such as VSCode
 
-1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/crystal_energy_alfa).
-3. Under the repository name, click `Clone or download`.
-4. In the Clone with HTTPs section, copy the clone URL for the repository.
-5. In your local IDE open the terminal.
-6. Change the current working directory to the location where you want the cloned directory to be made.
-7. Type 'git clone', and then paste the URL you copied in Step 3.
+* Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
+* Locate the [GitHub Repository](https://github.com/Sandra-Be/crystal_energy_alfa).
+* Under the repository name, click `Clone or download`.
+* In the Clone with HTTPs section, copy the clone URL for the repository.
+* In your local IDE open the terminal.
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type 'git clone', and then paste the URL.
+
 ```
  git clone https://github.com/USERNAME/REPOSITORY
 ```
-8. Press Enter. Your local clone will be created.
+
+* Press Enter. Your local clone will be created.
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
