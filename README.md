@@ -242,7 +242,7 @@ This page introduces the website. It has a Navigation bar at the top that includ
 
 **Product Page**
 
-This is where all products are displayed. Products can be sorted and by name, price, ratting and category. Each products image links to a page that shows the individual products details. Registered users can view heart icon under each product, that way registered user has option to add product to wishlist. For admin/superuser there are links for pages to edit or remove product. Footer is placed on the bottom of the page.
+This is where all products are displayed. Products can be sorted and by name, price, rating and category. Each products image links to a page that shows the individual products details. Registered users can view heart icon under each product, that way registered user has option to add product to wishlist. For admin/superuser there are links for pages to edit or remove product. Footer is placed on the bottom of the page.
 
 **Reviews Page**
 
